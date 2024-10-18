@@ -1,0 +1,41 @@
+\contentsline {chapter}{\numberline {1}Introduction: The Beauty of Math for Everyone}{5}{}%
+\contentsline {section}{\numberline {1.1}Purpose of the Book}{5}{}%
+\contentsline {chapter}{\numberline {2}The Foundation of All Math – Addition and Subtraction}{7}{}%
+\contentsline {section}{\numberline {2.1}Why Start Here?}{7}{}%
+\contentsline {section}{\numberline {2.2}What Is Addition?}{7}{}%
+\contentsline {subsection}{\numberline {2.2.1}What Is Subtraction?}{8}{}%
+\contentsline {subsection}{\numberline {2.2.2}Practice Makes Perfect: Let’s Try Some Exercises!}{8}{}%
+\contentsline {section}{\numberline {2.3}Making It Real:}{9}{}%
+\contentsline {section}{\numberline {2.4}The Properties of Addition and Subtraction}{9}{}%
+\contentsline {subsection}{\numberline {2.4.1}Commutative Property of Addition}{9}{}%
+\contentsline {subsection}{\numberline {2.4.2}Associative Property of Addition}{9}{}%
+\contentsline {subsection}{\numberline {2.4.3}Subtraction is not Commutative}{9}{}%
+\contentsline {section}{\numberline {2.5}Breaking It Down: How to Approach Word Problems}{10}{}%
+\contentsline {section}{\numberline {2.6}Solve it!}{10}{}%
+\contentsline {subsection}{\numberline {2.6.1}Step 1: Identify what we know.}{10}{}%
+\contentsline {subsection}{\numberline {2.6.2}Step 2: Write the math problem:}{10}{}%
+\contentsline {subsection}{\numberline {2.6.3}Step 3: Solve it. Sarah now has 8 marbles.}{10}{}%
+\contentsline {section}{\numberline {2.7}Summary}{10}{}%
+\contentsline {subsection}{\numberline {2.7.1}Challenge Question}{11}{}%
+\contentsline {section}{\numberline {2.8}Overcoming Fear of Math}{11}{}%
+\contentsline {section}{\numberline {2.9}The Language of Math}{11}{}%
+\contentsline {chapter}{\numberline {3}Foundations: Addition and Subtraction}{13}{}%
+\contentsline {section}{\numberline {3.1}Understanding Numbers}{13}{}%
+\contentsline {section}{\numberline {3.2}Addition}{13}{}%
+\contentsline {section}{\numberline {3.3}Subtraction}{13}{}%
+\contentsline {chapter}{\numberline {4}Fractions, Decimals, and Percentages}{15}{}%
+\contentsline {section}{\numberline {4.1}Fractions}{15}{}%
+\contentsline {section}{\numberline {4.2}Decimals}{15}{}%
+\contentsline {section}{\numberline {4.3}Percentages}{15}{}%
+\contentsline {chapter}{\numberline {5}Algebra: Solving for the Unknown}{17}{}%
+\contentsline {section}{\numberline {5.1}Introduction to Algebra}{17}{}%
+\contentsline {section}{\numberline {5.2}Linear Equations}{17}{}%
+\contentsline {section}{\numberline {5.3}Quadratic Equations}{17}{}%
+\contentsline {chapter}{\numberline {6}Geometry: Shapes and Spaces}{19}{}%
+\contentsline {section}{\numberline {6.1}Basic Shapes}{19}{}%
+\contentsline {section}{\numberline {6.2}Perimeter, Area, and Volume}{19}{}%
+\contentsline {section}{\numberline {6.3}Advanced Geometry: Circles and Polygons}{19}{}%
+\contentsline {chapter}{\numberline {7}Calculus: Understanding Change}{21}{}%
+\contentsline {section}{\numberline {7.1}Derivatives}{21}{}%
+\contentsline {section}{\numberline {7.2}Integrals}{21}{}%
+\contentsline {chapter}{\numberline {8}Conclusion: A Journey Through Mathematics}{23}{}%
