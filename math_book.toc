@@ -2,15 +2,73 @@
 \contentsline {section}{\numberline {1.1}Purpose of the Book}{5}{}%
 \contentsline {section}{\numberline {1.2}Overcoming Fear of Math}{5}{}%
 \contentsline {section}{\numberline {1.3}The Language of Math}{5}{}%
-\contentsline {chapter}{\numberline {2}Fractions, Decimals, and Percentages}{7}{}%
-\contentsline {section}{\numberline {2.1}Fractions}{7}{}%
-\contentsline {section}{\numberline {2.2}Decimals}{7}{}%
-\contentsline {section}{\numberline {2.3}Percentages}{7}{}%
-\contentsline {chapter}{\numberline {3}Algebra: Solving for the Unknown}{9}{}%
-\contentsline {section}{\numberline {3.1}Introduction to Algebra}{9}{}%
-\contentsline {section}{\numberline {3.2}Linear Equations}{9}{}%
-\contentsline {section}{\numberline {3.3}Quadratic Equations}{9}{}%
-\contentsline {chapter}{\numberline {4}Calculus: Understanding Change}{11}{}%
-\contentsline {section}{\numberline {4.1}Derivatives}{11}{}%
-\contentsline {section}{\numberline {4.2}Integrals}{11}{}%
-\contentsline {chapter}{\numberline {5}Conclusion: A Journey Through Mathematics}{13}{}%
+\contentsline {chapter}{\numberline {2}Why Start Here? Addition and Subtraction}{7}{}%
+\contentsline {section}{\numberline {2.1}What Is Addition?}{7}{}%
+\contentsline {subsection}{\numberline {2.1.1}Visualizing Addition}{8}{}%
+\contentsline {section}{\numberline {2.2}What Is Subtraction?}{8}{}%
+\contentsline {subsection}{\numberline {2.2.1}Visualizing Subtraction}{8}{}%
+\contentsline {section}{\numberline {2.3}Practice Makes Perfect: Let’s Try Some Exercises!}{8}{}%
+\contentsline {subsection}{\numberline {2.3.1}Simple Addition}{8}{}%
+\contentsline {subsection}{\numberline {2.3.2}Simple Subtraction}{9}{}%
+\contentsline {section}{\numberline {2.4}Making It Real: Addition and Subtraction in Everyday Life}{9}{}%
+\contentsline {section}{\numberline {2.5}The Properties of Addition and Subtraction}{9}{}%
+\contentsline {subsection}{\numberline {2.5.1}Commutative Property of Addition}{9}{}%
+\contentsline {subsection}{\numberline {2.5.2}Associative Property of Addition}{9}{}%
+\contentsline {subsection}{\numberline {2.5.3}Subtraction is not Commutative}{10}{}%
+\contentsline {section}{\numberline {2.6}Breaking It Down: How to Approach Word Problems}{10}{}%
+\contentsline {section}{\numberline {2.7}Chapter Summary}{10}{}%
+\contentsline {section}{\numberline {2.8}Challenge Question}{11}{}%
+\contentsline {chapter}{\numberline {3}Fractions, Decimals, and Percentages - Parts of a Whole}{13}{}%
+\contentsline {section}{\numberline {3.1}Introduction: Why Learn About Fractions, Decimals, and Percentages?}{13}{}%
+\contentsline {section}{\numberline {3.2}What Is a Fraction?}{13}{}%
+\contentsline {subsection}{\numberline {3.2.1}Visualizing Fractions}{14}{}%
+\contentsline {subsection}{\numberline {3.2.2}Key Vocabulary}{14}{}%
+\contentsline {section}{\numberline {3.3}What Is a Decimal?}{14}{}%
+\contentsline {subsection}{\numberline {3.3.1}Understanding Place Value in Decimals}{14}{}%
+\contentsline {subsection}{\numberline {3.3.2}Converting Fractions to Decimals}{14}{}%
+\contentsline {section}{\numberline {3.4}What Is a Percentage?}{15}{}%
+\contentsline {subsection}{\numberline {3.4.1}Understanding Percentages}{15}{}%
+\contentsline {subsection}{\numberline {3.4.2}Converting Percentages to Fractions and Decimals}{15}{}%
+\contentsline {section}{\numberline {3.5}How to Work with Fractions}{15}{}%
+\contentsline {subsection}{\numberline {3.5.1}Adding and Subtracting Fractions}{15}{}%
+\contentsline {subsection}{\numberline {3.5.2}Multiplying and Dividing Fractions}{16}{}%
+\contentsline {section}{\numberline {3.6}How to Work with Decimals}{16}{}%
+\contentsline {subsection}{\numberline {3.6.1}Adding and Subtracting Decimals}{16}{}%
+\contentsline {subsection}{\numberline {3.6.2}Multiplying Decimals}{16}{}%
+\contentsline {subsection}{\numberline {3.6.3}Dividing Decimals}{16}{}%
+\contentsline {section}{\numberline {3.7}How to Work with Percentages}{17}{}%
+\contentsline {subsection}{\numberline {3.7.1}Finding a Percentage of a Number}{17}{}%
+\contentsline {subsection}{\numberline {3.7.2}Converting a Number to a Percentage}{17}{}%
+\contentsline {section}{\numberline {3.8}Practice Makes Perfect: Let’s Try Some Exercises!}{17}{}%
+\contentsline {subsection}{\numberline {3.8.1}Fractions}{17}{}%
+\contentsline {subsection}{\numberline {3.8.2}Decimals}{17}{}%
+\contentsline {subsection}{\numberline {3.8.3}Percentages}{17}{}%
+\contentsline {section}{\numberline {3.9}Real-Life Applications of Fractions, Decimals, and Percentages}{18}{}%
+\contentsline {subsection}{\numberline {3.9.1}Cooking}{18}{}%
+\contentsline {subsection}{\numberline {3.9.2}Shopping}{18}{}%
+\contentsline {subsection}{\numberline {3.9.3}Money}{18}{}%
+\contentsline {section}{\numberline {3.10}Converting Between Fractions, Decimals, and Percentages}{18}{}%
+\contentsline {subsection}{\numberline {3.10.1}Converting Fractions to Decimals}{18}{}%
+\contentsline {subsection}{\numberline {3.10.2}Converting Decimals to Fractions}{18}{}%
+\contentsline {subsection}{\numberline {3.10.3}Converting Fractions to Percentages}{19}{}%
+\contentsline {subsection}{\numberline {3.10.4}Converting Percentages to Fractions}{19}{}%
+\contentsline {subsection}{\numberline {3.10.5}Converting Decimals to Percentages}{19}{}%
+\contentsline {subsection}{\numberline {3.10.6}Converting Percentages to Decimals}{19}{}%
+\contentsline {section}{\numberline {3.11}Real-Life Applications of Fractions, Decimals, and Percentages}{19}{}%
+\contentsline {subsection}{\numberline {3.11.1}Shopping and Discounts}{19}{}%
+\contentsline {subsection}{\numberline {3.11.2}Cooking}{20}{}%
+\contentsline {subsection}{\numberline {3.11.3}Time}{20}{}%
+\contentsline {subsection}{\numberline {3.11.4}Grades}{20}{}%
+\contentsline {section}{\numberline {3.12}Practice Makes Perfect: Let’s Try Some Exercises!}{20}{}%
+\contentsline {subsection}{\numberline {3.12.1}Converting Between Forms}{20}{}%
+\contentsline {subsection}{\numberline {3.12.2}Word Problems}{20}{}%
+\contentsline {section}{\numberline {3.13}Chapter Summary}{21}{}%
+\contentsline {subsection}{\numberline {3.13.1}Challenge Question}{21}{}%
+\contentsline {chapter}{\numberline {4}Algebra: Solving for the Unknown}{23}{}%
+\contentsline {section}{\numberline {4.1}Introduction to Algebra}{23}{}%
+\contentsline {section}{\numberline {4.2}Linear Equations}{23}{}%
+\contentsline {section}{\numberline {4.3}Quadratic Equations}{23}{}%
+\contentsline {chapter}{\numberline {5}Calculus: Understanding Change}{25}{}%
+\contentsline {section}{\numberline {5.1}Derivatives}{25}{}%
+\contentsline {section}{\numberline {5.2}Integrals}{25}{}%
+\contentsline {chapter}{\numberline {6}Conclusion: A Journey Through Mathematics}{27}{}%
