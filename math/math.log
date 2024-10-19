@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  18 OCT 2024 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  18 OCT 2024 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,12 +365,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen260
-))
-Overfull \hbox (40.28564pt too wide) in paragraph at lines 56--57
-[][] 
- []
-
-[7]
+)) [7]
 Overfull \hbox (55.4559pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10 8 \OT1/cmr/m/sl/10 CHAPTER 2.  THE FOUNDATION OF ALL MATH { ADDITION AND SUBTRACTION
  []
@@ -416,15 +411,15 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13103 strings out of 474485
- 268578 string characters out of 5760148
- 1938542 words of memory out of 5000000
- 35185 multiletter control sequences out of 15000+600000
+ 13094 strings out of 474485
+ 268357 string characters out of 5760148
+ 1937542 words of memory out of 5000000
+ 35176 multiletter control sequences out of 15000+600000
  565352 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,93p,444b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,444b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on math.pdf (23 pages, 142053 bytes).
+Output written on math.pdf (23 pages, 142270 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

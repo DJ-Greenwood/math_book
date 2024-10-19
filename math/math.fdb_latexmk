@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1729285912.03399 "c:/Users/Denzi/OneDrive/Documents/Math_book/math_book/math/math.tex" "math.pdf" "math" 1729285914.19777 0
+["pdflatex"] 1729287929.04749 "c:/Users/Denzi/OneDrive/Documents/Math_book/math_book/math/math.tex" "math.pdf" "math" 1729287930.46221 0
   "C:/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -111,10 +111,10 @@
   "C:/Users/Denzi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729282572 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Denzi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1729284694 11548 62ef88683a21ae8e168ad2a2a5e65fb2 ""
   "C:/Users/Denzi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729282138 24208673 3c97f94df3a53f7a90180d5b01dcd107 ""
-  "c:/Users/Denzi/OneDrive/Documents/Math_book/math_book/math/math.tex" 1729285911 11279 bc78ec26a8e5c70c78e1e2cd11cb5c0e ""
-  "math.aux" 1729285913 5416 668f091de0af7643c64a9c77b7bce297 "pdflatex"
-  "math.tex" 1729285911 11279 bc78ec26a8e5c70c78e1e2cd11cb5c0e ""
-  "math.toc" 1729285913 3094 9debc09d4c1613be0eb0fa7cd2c396c2 "pdflatex"
+  "c:/Users/Denzi/OneDrive/Documents/Math_book/math_book/math/math.tex" 1729287926 11285 d9fea6c34453113489e915ff1a6cb21f ""
+  "math.aux" 1729287930 5642 e4f8639ffbb48ecef73fb8fff5d4515e "pdflatex"
+  "math.tex" 1729287926 11285 d9fea6c34453113489e915ff1a6cb21f ""
+  "math.toc" 1729287930 3238 78a340a6b5a08d14950b81b37dfef4e9 "pdflatex"
   (generated)
   "math.aux"
   "math.log"

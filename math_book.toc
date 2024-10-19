@@ -1,0 +1,16 @@
+\contentsline {chapter}{\numberline {1}Introduction: The Beauty of Math for Everyone}{5}{}%
+\contentsline {section}{\numberline {1.1}Purpose of the Book}{5}{}%
+\contentsline {section}{\numberline {1.2}Overcoming Fear of Math}{5}{}%
+\contentsline {section}{\numberline {1.3}The Language of Math}{5}{}%
+\contentsline {chapter}{\numberline {2}Fractions, Decimals, and Percentages}{7}{}%
+\contentsline {section}{\numberline {2.1}Fractions}{7}{}%
+\contentsline {section}{\numberline {2.2}Decimals}{7}{}%
+\contentsline {section}{\numberline {2.3}Percentages}{7}{}%
+\contentsline {chapter}{\numberline {3}Algebra: Solving for the Unknown}{9}{}%
+\contentsline {section}{\numberline {3.1}Introduction to Algebra}{9}{}%
+\contentsline {section}{\numberline {3.2}Linear Equations}{9}{}%
+\contentsline {section}{\numberline {3.3}Quadratic Equations}{9}{}%
+\contentsline {chapter}{\numberline {4}Calculus: Understanding Change}{11}{}%
+\contentsline {section}{\numberline {4.1}Derivatives}{11}{}%
+\contentsline {section}{\numberline {4.2}Integrals}{11}{}%
+\contentsline {chapter}{\numberline {5}Conclusion: A Journey Through Mathematics}{13}{}%
