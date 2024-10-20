@@ -12,12 +12,11 @@
 \contentsline {subsection}{\numberline {2.3.2}Simple Subtraction}{15}{}%
 \contentsline {section}{\numberline {2.4}Making It Real: Addition and Subtraction in Everyday Life}{15}{}%
 \contentsline {section}{\numberline {2.5}The Properties of Addition and Subtraction}{15}{}%
-\contentsline {subsection}{\numberline {2.5.1}Commutative Property of Addition}{15}{}%
-\contentsline {subsection}{\numberline {2.5.2}Associative Property of Addition}{15}{}%
+\contentsline {subsection}{\numberline {2.5.1}Commutative Property of Addition}{16}{}%
+\contentsline {subsection}{\numberline {2.5.2}Associative Property of Addition}{16}{}%
 \contentsline {subsection}{\numberline {2.5.3}Subtraction is not Commutative}{16}{}%
 \contentsline {section}{\numberline {2.6}Breaking It Down: How to Approach Word Problems}{16}{}%
-\contentsline {section}{\numberline {2.7}Chapter Summary}{16}{}%
-\contentsline {section}{\numberline {2.8}Challenge Question}{17}{}%
+\contentsline {section}{\numberline {2.7}Chapter Summary}{17}{}%
 \contentsline {chapter}{\numberline {3}Multiplication and Division}{19}{}%
 \contentsline {section}{\numberline {3.1}Introduction: The Power of Groups and Sharing}{19}{}%
 \contentsline {section}{\numberline {3.2}What Is Multiplication?}{19}{}%
@@ -337,3 +336,15 @@
 \contentsline {section}{\numberline {15.7}Real-Life Applications of Discrete Mathematics}{104}{}%
 \contentsline {section}{\numberline {15.8}Chapter Summary}{104}{}%
 \contentsline {chapter}{\numberline {16}Conclusion: A Journey Through Mathematics}{107}{}%
+\contentsline {chapter}{\numberline {17}Mathematical Definitions, Notations, and Concepts}{109}{}%
+\contentsline {section}{\numberline {17.1}Addition (+)}{109}{}%
+\contentsline {section}{\numberline {17.2}Subtraction \textendash }{109}{}%
+\contentsline {section}{\numberline {17.3}Multiplication (\( \times \) or \( \cdot \))}{109}{}%
+\contentsline {section}{\numberline {17.4}Division (÷ or /)}{109}{}%
+\contentsline {section}{\numberline {17.5}Fractions}{109}{}%
+\contentsline {section}{\numberline {17.6}Decimals}{110}{}%
+\contentsline {section}{\numberline {17.7}Percentage (\%)}{110}{}%
+\contentsline {section}{\numberline {17.8}Exponents \(\wedge \) or superscript}{110}{}%
+\contentsline {section}{\numberline {17.9}Roots (\(\sqrt {}\))}{110}{}%
+\contentsline {section}{\numberline {17.10}Less than, greater than and inequalities ($<$, $>$, $\leq $, $\geq $)}{110}{}%
+\contentsline {section}{\numberline {17.11}Order of Operations (PEMDAS)}{110}{}%
