@@ -17,6 +17,7 @@
 \contentsline {subsection}{\numberline {2.5.3}Subtraction is not Commutative}{16}{}%
 \contentsline {section}{\numberline {2.6}Breaking It Down: How to Approach Word Problems}{16}{}%
 \contentsline {section}{\numberline {2.7}Chapter Summary}{17}{}%
+\contentsline {section}{\numberline {2.8}Challenge Question}{17}{}%
 \contentsline {chapter}{\numberline {3}Multiplication and Division}{19}{}%
 \contentsline {section}{\numberline {3.1}Introduction: The Power of Groups and Sharing}{19}{}%
 \contentsline {section}{\numberline {3.2}What Is Multiplication?}{19}{}%
@@ -34,6 +35,7 @@
 \contentsline {subsection}{\numberline {3.7.3}Distributive Property:}{22}{}%
 \contentsline {section}{\numberline {3.8}Breaking It Down: Solving Word Problems with Multiplication and Division}{22}{}%
 \contentsline {section}{\numberline {3.9}Chapter Summary}{23}{}%
+\contentsline {section}{\numberline {3.10}Challenge Question:}{23}{}%
 \contentsline {chapter}{\numberline {4}Fractions, Decimals, and Percentages - Parts of a Whole}{25}{}%
 \contentsline {section}{\numberline {4.1}Introduction: Why Learn About Fractions, Decimals, and Percentages?}{25}{}%
 \contentsline {section}{\numberline {4.2}What Is a Fraction?}{25}{}%
