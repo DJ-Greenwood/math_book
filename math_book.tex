@@ -1,7 +1,28 @@
 \documentclass{book}
+\usepackage{amsfonts}
 \usepackage{amsmath} % For math symbols
 \usepackage{graphicx} % For including graphics
+\usepackage{tikz}
+\usepackage{tikz-3dplot} % For 3D graphics
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % For dummy text
 
+% Set up the fancyhdr package
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+
+% Define the header
+% \fancyhead[LE,RO]{\thepage} % Page number on the left for even pages, right for odd pages
+\fancyhead[RE]{\nouppercase{\leftmark}} % Chapter name on the right for even pages
+\fancyhead[LO]{\nouppercase{\rightmark}} % Section name on the left for odd pages
+
+% Define the footer (optional)
+\fancyfoot[C]{\thepage} % Page number in the center of the footer
+
+% Ensure chapter and section titles are in uppercase
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
 \begin{document}
 
 \title{Mastering Mathematics: From Foundations to Infinite Possibilities}
@@ -17,8 +38,15 @@
 \include{chapters/fractions_decimals_percentages}
 \include{chapters/algebra}
 \include{chapters/geometry}
+\include{chapters/Data_and_Probability}
+\include{chapters/Advanced_Algebra}
 \include{chapters/calculus}
-\include{chapters/statistics}
+\include{chapters/Trigonometry}
+\include{chapters/Abstract_Math}
+\include{chapters/Understanding_Infinity}
+\include{chapters/Modern_math}
+\include{chapters/Advanced_Geomerty}
+\include{chapters/Discrete_Mathematics}
 \include{chapters/conclusion}
 
 \end{document}
