@@ -8,8 +8,6 @@
 \contentsline {section}{\numberline {2.2}What Is Subtraction?}{14}{}%
 \contentsline {subsection}{\numberline {2.2.1}Visualizing Subtraction}{14}{}%
 \contentsline {section}{\numberline {2.3}Practice Makes Perfect: Let’s Try Some Exercises!}{15}{}%
-\contentsline {subsection}{\numberline {2.3.1}Simple Addition}{15}{}%
-\contentsline {subsection}{\numberline {2.3.2}Simple Subtraction}{15}{}%
 \contentsline {section}{\numberline {2.4}Making It Real: Addition and Subtraction in Everyday Life}{15}{}%
 \contentsline {section}{\numberline {2.5}The Properties of Addition and Subtraction}{16}{}%
 \contentsline {subsection}{\numberline {2.5.1}Commutative Property of Addition}{16}{}%
@@ -24,9 +22,9 @@
 \contentsline {section}{\numberline {3.2}What Is Multiplication?}{19}{}%
 \contentsline {subsection}{\numberline {3.2.1}Visualizing Multiplication}{20}{}%
 \contentsline {section}{\numberline {3.3}What Is Division?}{20}{}%
-\contentsline {subsection}{\numberline {3.3.1}Visualizing Division}{20}{}%
+\contentsline {subsection}{\numberline {3.3.1}Visualizing Division}{21}{}%
 \contentsline {section}{\numberline {3.4}The Relationship Between Multiplication and Division}{21}{}%
-\contentsline {section}{\numberline {3.5}Practice Makes Perfect: Let’s Try Some Exercises!}{22}{}%
+\contentsline {section}{\numberline {3.5}Practice Makes Perfect: Let’s Try Some Exercises!}{21}{}%
 \contentsline {subsection}{\numberline {3.5.1}Simple Multiplication:}{22}{}%
 \contentsline {subsection}{\numberline {3.5.2}Simple Division:}{22}{}%
 \contentsline {section}{\numberline {3.6}Everyday Examples of Multiplication and Division}{22}{}%
@@ -74,13 +72,13 @@
 \contentsline {subsection}{\numberline {4.10.5}Converting Decimals to Percentages}{33}{}%
 \contentsline {subsection}{\numberline {4.10.6}Converting Percentages to Decimals}{33}{}%
 \contentsline {section}{\numberline {4.11}Real-Life Applications of Fractions, Decimals, and Percentages}{33}{}%
-\contentsline {subsection}{\numberline {4.11.1}Shopping and Discounts}{34}{}%
+\contentsline {subsection}{\numberline {4.11.1}Shopping and Discounts}{33}{}%
 \contentsline {subsection}{\numberline {4.11.2}Cooking}{34}{}%
 \contentsline {subsection}{\numberline {4.11.3}Time}{34}{}%
 \contentsline {subsection}{\numberline {4.11.4}Grades}{34}{}%
 \contentsline {section}{\numberline {4.12}Practice Makes Perfect: Let’s Try Some Exercises!}{34}{}%
 \contentsline {subsection}{\numberline {4.12.1}Converting Between Forms}{34}{}%
-\contentsline {subsection}{\numberline {4.12.2}Word Problems}{35}{}%
+\contentsline {subsection}{\numberline {4.12.2}Word Problems}{34}{}%
 \contentsline {section}{\numberline {4.13}Chapter Summary}{35}{}%
 \contentsline {subsection}{\numberline {4.13.1}Challenge Question}{35}{}%
 \contentsline {chapter}{\numberline {5}Patterns and Relationships – Introduction to Algebra}{37}{}%
@@ -122,12 +120,12 @@
 \contentsline {subsubsection}{Cube}{46}{}%
 \contentsline {subsubsection}{Rectangular Prism}{46}{}%
 \contentsline {subsubsection}{Sphere}{46}{}%
-\contentsline {subsubsection}{Cylinder}{47}{}%
+\contentsline {subsubsection}{Cylinder}{46}{}%
 \contentsline {section}{\numberline {6.6}Real-Life Geometry: Applying What We’ve Learned}{47}{}%
 \contentsline {section}{\numberline {6.7}Practice Makes Perfect: Let’s Try Some Exercises!}{47}{}%
 \contentsline {subsection}{\numberline {6.7.1}Perimeter and Area}{47}{}%
 \contentsline {subsection}{\numberline {6.7.2}Volume}{47}{}%
-\contentsline {subsection}{\numberline {6.7.3}Angles}{48}{}%
+\contentsline {subsection}{\numberline {6.7.3}Angles}{47}{}%
 \contentsline {section}{\numberline {6.8}Chapter Summary}{48}{}%
 \contentsline {subsection}{\numberline {6.8.1}Challenge Question}{48}{}%
 \contentsline {chapter}{\numberline {7}Data and Probability – Understanding Uncertainty and Making Predictions}{49}{}%
@@ -274,7 +272,7 @@
 \contentsline {subsection}{\numberline {13.4.1}Types of Machine Learning}{90}{}%
 \contentsline {paragraph}{Supervised Learning:}{90}{}%
 \contentsline {paragraph}{Unsupervised Learning:}{90}{}%
-\contentsline {paragraph}{Reinforcement Learning:}{91}{}%
+\contentsline {paragraph}{Reinforcement Learning:}{90}{}%
 \contentsline {subsection}{\numberline {13.4.2}Key Machine Learning Algorithms}{91}{}%
 \contentsline {paragraph}{Linear Regression:}{91}{}%
 \contentsline {paragraph}{Decision Trees:}{91}{}%
