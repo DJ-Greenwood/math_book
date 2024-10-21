@@ -60,32 +60,47 @@ We can also use a number line for subtraction. Instead of moving to the right as
 
 If you’re subtracting 5 - 2, you start at 5 on the number line and move 2 steps to the left. You’ll land at 3.
 
+\begin{center}
+    \begin{tikzpicture}[scale=0.7]
+        \draw[thick,<->] (-1,0) -- (7,0) node[right] {Number Line};
+        \foreach \x in {0,1,...,7}
+            \draw (\x,3pt) -- (\x,-3pt) node[below] {\x};
+        \draw[red,thick,<-] (3,0.5) -- (5,0.5) node[midway,above] {-2};
+        \filldraw[blue] (3,0) circle (2pt) node[above] {3};
+        \filldraw[blue] (5,0) circle (2pt) node[above] {5};
+    \end{tikzpicture}
+\end{center}
+
 \section{Practice Makes Perfect: Let’s Try Some Exercises!}
+Now that we understand the basics of addition and subtraction, let’s practice with some simple problems. Remember, the more you practice, the better you’ll get!
+\begin{multicols}{2}
+    
+
 \subsection{Simple Addition}
-\begin{enumerate}[label=\alph*)]
-    \item $5 + 4 = \underline{\hspace{0.5cm}}$
-    \item $7 + 2 = \underline{\hspace{0.5cm}}$
-    \item $10 + 6 = \underline{\hspace{0.5cm}}$
-    \item $3145 + 1234 = \underline{\hspace{0.5cm}}$
-    \item $100 + 1000 = \underline{\hspace{0.5cm}}$
-\end{enumerate}
+    \begin{enumerate}[label=\alph*)]
+        \item $5 + 4 = \underline{\hspace{0.5cm}}$
+        \item $7 + 2 = \underline{\hspace{0.5cm}}$
+        \item $10 + 6 = \underline{\hspace{0.5cm}}$
+        \item $3145 + 1234 = \underline{\hspace{0.5cm}}$
+        \item $100 + 1000 = \underline{\hspace{0.5cm}}$
+    \end{enumerate}
 
-\subsection{Simple Subtraction}
-\begin{enumerate}[label=\alph*)]
-    \item $8 - 3 = \underline{\hspace{0.5cm}}$
-    \item $12 - 5 = \underline{\hspace{0.5cm}}$
-    \item $20 - 9 = \underline{\hspace{0.5cm}}$
-    \item $32 - 15 = \underline{\hspace{0.5cm}}$
-    \item $100 - 50 = \underline{\hspace{0.5cm}}$
-    \item $9534 - 1234 = \underline{\hspace{0.5cm}}$
-\end{enumerate}
+    \subsection{Simple Subtraction}
+    \begin{enumerate}[label=\alph*)]
+        \item $8 - 3 = \underline{\hspace{0.5cm}}$
+        \item $12 - 5 = \underline{\hspace{0.5cm}}$
+        \item $20 - 9 = \underline{\hspace{0.5cm}}$
+        \item $32 - 15 = \underline{\hspace{0.5cm}}$
+        \item $100 - 50 = \underline{\hspace{0.5cm}}$
+        \item $9534 - 1234 = \underline{\hspace{0.5cm}}$
+    \end{enumerate}
+\end{multicols}
 
-\noindent
 \textbf{Note:} You can use a number line to help you visualize these problems. For example, to solve $5 + 4$, you can draw a number line and move 4 steps to the right from 5.
 \noindent
 \begin{center}
     \begin{tikzpicture}
-        \draw[thick,<->] (-5,0) -- (5,0) node[left] {Number Line};
+        \draw[thick,<->] (-5,0) -- (5,0) node[above] {Number Line};
         \foreach \x in {-5,-4,...,5}
             \draw (\x,3pt) -- (\x,-3pt);
     \end{tikzpicture}
@@ -161,6 +176,17 @@ Let’s try an example:
 \end{itemize}
 \section{Challenge Question}
 Mastering addition and subtraction will set the stage for learning more advanced math concepts in the next chapters. Keep practicing, and soon you’ll be ready for the next step: multiplication and division!
+
+\textbf{Note:} You can use a number line to help you visualize these problems. 
+\noindent
+\begin{center}
+    \begin{tikzpicture}
+        \draw[thick,<->] (-5,0) -- (5,0) node[above] {Number Line};
+        \foreach \x in {-5,-4,...,5}
+            \draw (\x,3pt) -- (\x,-3pt);
+    \end{tikzpicture}
+    \end{center}
+    
 \begin{enumerate}   
     \item You have 10 apples. You give 4 apples to your friend, and then you buy 5 more apples. How many apples do you have now?
     \begin{itemize}

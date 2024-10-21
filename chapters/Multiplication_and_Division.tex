@@ -18,11 +18,23 @@ Here’s how it works:
 \end{itemize}
 
 Just like addition, multiplication allows us to combine numbers, but it’s much faster when you’re working with larger numbers or repeated amounts.
-
 \subsection{Visualizing Multiplication}
-We can visualize multiplication using arrays or grids. Imagine you’re arranging objects in rows and columns:
+\center
+    \begin{tikzpicture}
+        % Draw the circles and number them
+        \foreach \y in {0,1,2,3} {
+            \foreach \x in {0,1,2} {
+                \node[draw, circle, minimum size=0.5cm] at (\x, -\y) {\pgfmathparse{int(\x+1)}\pgfmathresult};
+            }
+            % Add row numbers
+            \node at (-1, -\y) {Row \pgfmathparse{int(\y+1)}\pgfmathresult};
+        }
+    \end{tikzpicture}
+\endcenter
+
+In this grid, we have 4 rows of 3 circles each, which represents 4 × 3 = 12.
 \begin{itemize}
-    \item If you have 4 rows of 3 objects, you can count all the objects (3 + 3 + 3 + 3) or multiply (4 × 3 = 12).
+    \item If you have 4 rows of 3 circles, you can count all the objects (3 + 3 + 3 + 3) or multiply (4 × 3 = 12).
 \end{itemize}
 
 Let’s try another example:
@@ -51,7 +63,22 @@ Here’s how it works:
 
 \subsection{Visualizing Division}
 We can also use arrays and grouping to understand division. Imagine you have 12 candies, and you want to put them into groups of 4. You would end up with 3 groups of 4, which tells you that 12 ÷ 4 = 3.
+\center
+    \begin{tikzpicture}
+        % Draw the groups of candies
+        \foreach \y in {0,1,2} {
+            \foreach \x in {0,1,2,3} {
+                \node[draw, circle, minimum size=0.5cm] at (\x, -\y) {};
+            }
+        }
+        % Add group labels
+        \node at (2, 1) {Group 1};
+        \node at (2, -1.5) {Group 2};
+        \node at (2, -4) {Group 3};
+    \end{tikzpicture}
+\endcenter
 
+In this grid, we have 3 groups of 4 candies each, which represents 12 ÷ 4 = 3.
 Another example:
 
 \textbf{Example:}
