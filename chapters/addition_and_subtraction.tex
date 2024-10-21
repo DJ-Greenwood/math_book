@@ -27,12 +27,15 @@ One of the best ways to understand addition is by using a number line. A number 
 For example, if you’re adding 2 + 3, you can start at 2 on the number line and move 3 steps to the right. You’ll land at 5.
 
 \begin{center}
-    \begin{tikzpicture}
-        \draw[thick, <->] (-6,0) -- (6,0) node[anchor=north west] {Number Line};
-        \foreach \x in {-5,-4,-3,-2,-1,0,1,2,3,4,5}
-            \draw (\x,3pt) -- (\x,-3pt) node[anchor=north] {\x};
+    \begin{tikzpicture}[scale=0.7]
+        \draw[thick,<->] (-1,0) -- (7,0) node[right] {Number Line};
+        \foreach \x in {0,1,...,7}
+            \draw (\x,3pt) -- (\x,-3pt) node[below] {\x};
+        \draw[red,thick,->] (2,0.5) -- (5,0.5) node[midway,above] {+3};
+        \filldraw[blue] (2,0) circle (2pt) node[above] {2};
+        \filldraw[blue] (5,0) circle (2pt) node[above] {5};
     \end{tikzpicture}
-    \end{center}
+\end{center}
 
 \section{What Is Subtraction?}
 Subtraction is the process of taking one number away from another. If addition is about combining, subtraction is about removing.
@@ -59,32 +62,34 @@ If you’re subtracting 5 - 2, you start at 5 on the number line and move 2 step
 
 \section{Practice Makes Perfect: Let’s Try Some Exercises!}
 \subsection{Simple Addition}
-\begin{enumerate}
-    \item 5 + 4 = \_\_\_\_
-    \item 7 + 2 = \_\_\_\_
-    \item 10 + 6 = \_\_\_\_
-    \item 3145 + 1234 = \_\_\_\_
-    \item 100 + 1000 = \_\_\_\_
+\begin{enumerate}[label=\alph*)]
+    \item $5 + 4 = \underline{\hspace{0.5cm}}$
+    \item $7 + 2 = \underline{\hspace{0.5cm}}$
+    \item $10 + 6 = \underline{\hspace{0.5cm}}$
+    \item $3145 + 1234 = \underline{\hspace{0.5cm}}$
+    \item $100 + 1000 = \underline{\hspace{0.5cm}}$
 \end{enumerate}
 
 \subsection{Simple Subtraction}
-\begin{enumerate}
-    \item 8 - 3 = \_\_\_\_
-    \item 12 - 5 = \_\_\_\_
-    \item 20 - 9 = \_\_\_\_
-    \item 32 - 15 = \_\_\_\_
-    \item 100 - 50 = \_\_\_\_
-    \item 9534 - 1234 = \_\_\_\_
+\begin{enumerate}[label=\alph*)]
+    \item $8 - 3 = \underline{\hspace{0.5cm}}$
+    \item $12 - 5 = \underline{\hspace{0.5cm}}$
+    \item $20 - 9 = \underline{\hspace{0.5cm}}$
+    \item $32 - 15 = \underline{\hspace{0.5cm}}$
+    \item $100 - 50 = \underline{\hspace{0.5cm}}$
+    \item $9534 - 1234 = \underline{\hspace{0.5cm}}$
 \end{enumerate}
 
-Try to use a number line for these problems. Draw one out, and for each addition problem, move right. For each subtraction problem, move left. This will help you visualize the process.
+\noindent
+\textbf{Note:} You can use a number line to help you visualize these problems. For example, to solve $5 + 4$, you can draw a number line and move 4 steps to the right from 5.
+\noindent
 \begin{center}
     \begin{tikzpicture}
-        \draw[thick, <->] (-6,0) -- (6,0) node[anchor=north west] {};
-        \foreach \x in {-5,-4,-3,-2,-1,0,1,2,3,4,5}
+        \draw[thick,<->] (-5,0) -- (5,0) node[left] {Number Line};
+        \foreach \x in {-5,-4,...,5}
             \draw (\x,3pt) -- (\x,-3pt);
     \end{tikzpicture}
-\end{center}
+    \end{center}
 
 \section{Making It Real: Addition and Subtraction in Everyday Life}
 Math is everywhere. You use addition and subtraction more often than you think:
@@ -130,15 +135,17 @@ Here’s a simple strategy to help you:
 \end{enumerate}
 
 Let’s try an example:
+\subsection{\textbf{Problem:}}
+ Sarah has 5 marbles. She finds 3 more marbles. How many marbles does Sarah have now?
 \begin{itemize}
-    \item \textbf{Problem:} Sarah has 5 marbles. She finds 3 more marbles. How many marbles does Sarah have now?
+  
     \item \textbf{Step 1:} Identify what we know.
-    \begin{enumerate}
+    \begin{enumerate}[label=\alph*)]
         \item Sarah starts with 5 marbles.
         \item She finds 3 more.
     \end{enumerate}
     \item \textbf{Step 2:} Write the math problem:
-    \begin{enumerate}
+    \begin{enumerate}[label=\alph*)]
         \item 5 + 3 = 8.
     \end{enumerate}
     \item \textbf{Step 3:} Solve it. Sarah now has 8 marbles.
@@ -157,47 +164,47 @@ Mastering addition and subtraction will set the stage for learning more advanced
 \begin{enumerate}   
     \item You have 10 apples. You give 4 apples to your friend, and then you buy 5 more apples. How many apples do you have now?
     \begin{itemize}
-        \item (10 - 4) + 5 = \_\_\_\_?
+        \item $(10 - 4) + 5 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 15 candies. You eat 3 candies and then receive 7 more candies from a friend. How many candies do you have now?
     \begin{itemize}
-        \item (15 - 3) + 7 = \_\_\_\_?
+        \item $(15 - 3) + 7 = \underline{\hspace{0.5cm}}$
     \end{itemize}    
     \item You have 20 books. You lend 5 books to a friend and then buy 3 more books. How many books do you have now?
     \begin{itemize}
-        \item (20 - 5) + 3 = \_\_\_\_?
+        \item $(20 - 5) + 3 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 30 pencils. You give 10 pencils to your classmates and then find 8 more pencils. How many pencils do you have now?
     \begin{itemize}
-        \item (30 - 10) + 8 = \_\_\_\_?
+        \item $(30 - 10) + 8 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 50 stickers. You use 20 stickers and then receive 15 more stickers as a gift. How many stickers do you have now?
     \begin{itemize}
-        \item (50 - 20) + 15 = \_\_\_\_?
+        \item $(50 - 20) + 15 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 100 dollars. You spend 40 dollars on groceries and then earn 25 dollars from a part-time job. How much money do you have now?
     \begin{itemize}
-        \item (100 - 40) + 25 = \_\_\_\_?
+        \item $(100 - 40) + 25 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 12 cookies. You eat 4 cookies and then bake 10 more cookies. How many cookies do you have now?
     \begin{itemize}
-        \item (12 - 4) + 10 = \_\_\_\_?
+        \item $(12 - 4) + 10 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 18 balloons. 6 balloons pop, and then you buy 9 more balloons. How many balloons do you have now?
     \begin{itemize}
-        \item (18 - 6) + 9 = \_\_\_\_?
+        \item $(18 - 6) + 9 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 25 marbles. You lose 7 marbles and then find 12 more marbles. How many marbles do you have now?
     \begin{itemize}
-        \item (25 - 7) + 12 = \_\_\_\_?
+        \item $(25 - 7) + 12 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 40 candies. You give 15 candies to your friends and then receive 20 more candies. How many candies do you have now?
     \begin{itemize}
-        \item (40 - 15) + 20 = \_\_\_\_?
+        \item $(40 - 15) + 20 = \underline{\hspace{0.5cm}}$
     \end{itemize}
     \item You have 60 pages to read. You read 20 pages and then your teacher assigns 30 more pages. How many pages do you have to read now?
     \begin{itemize}
-        \item (60 - 20) + 30 = \_\_\_\_?
+        \item $(60 - 20) + 30 = \underline{\hspace{0.5cm}}$
     \end{itemize}
 \end{enumerate}
 
