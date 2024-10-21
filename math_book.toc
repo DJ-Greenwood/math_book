@@ -25,16 +25,18 @@
 \contentsline {subsection}{\numberline {3.3.1}Visualizing Division}{21}{}%
 \contentsline {section}{\numberline {3.4}The Relationship Between Multiplication and Division}{21}{}%
 \contentsline {section}{\numberline {3.5}Practice Makes Perfect: Let’s Try Some Exercises!}{21}{}%
-\contentsline {subsection}{\numberline {3.5.1}Simple Multiplication:}{22}{}%
-\contentsline {subsection}{\numberline {3.5.2}Simple Division:}{22}{}%
+\contentsline {subsection}{\numberline {3.5.1}Multiplication:}{22}{}%
+\contentsline {subsection}{\numberline {3.5.2}Division:}{22}{}%
 \contentsline {section}{\numberline {3.6}Everyday Examples of Multiplication and Division}{22}{}%
 \contentsline {section}{\numberline {3.7}The Properties of Multiplication}{22}{}%
 \contentsline {subsection}{\numberline {3.7.1}Commutative Property of Multiplication:}{22}{}%
-\contentsline {subsection}{\numberline {3.7.2}Associative Property of Multiplication:}{23}{}%
+\contentsline {subsection}{\numberline {3.7.2}Associative Property of Multiplication:}{22}{}%
 \contentsline {subsection}{\numberline {3.7.3}Distributive Property:}{23}{}%
 \contentsline {section}{\numberline {3.8}Breaking It Down: Solving Word Problems with Multiplication and Division}{23}{}%
-\contentsline {section}{\numberline {3.9}Chapter Summary}{23}{}%
-\contentsline {section}{\numberline {3.10}Challenge Question:}{24}{}%
+\contentsline {section}{\numberline {3.9}Example 1: Multiplication}{23}{}%
+\contentsline {section}{\numberline {3.10}Example 2: Division}{23}{}%
+\contentsline {section}{\numberline {3.11}Chapter Summary}{23}{}%
+\contentsline {section}{\numberline {3.12}Challenge Question:}{24}{}%
 \contentsline {chapter}{\numberline {4}Fractions, Decimals, and Percentages - Parts of a Whole}{27}{}%
 \contentsline {section}{\numberline {4.1}Introduction: Why Learn About Fractions, Decimals, and Percentages?}{27}{}%
 \contentsline {section}{\numberline {4.2}What Is a Fraction?}{27}{}%
@@ -42,7 +44,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Key Vocabulary}{28}{}%
 \contentsline {section}{\numberline {4.3}What Is a Decimal?}{28}{}%
 \contentsline {subsection}{\numberline {4.3.1}Understanding Place Value in Decimals}{28}{}%
-\contentsline {subsection}{\numberline {4.3.2}Converting Fractions to Decimals}{28}{}%
+\contentsline {subsection}{\numberline {4.3.2}Converting Fractions to Decimals}{29}{}%
 \contentsline {section}{\numberline {4.4}What Is a Percentage?}{29}{}%
 \contentsline {subsection}{\numberline {4.4.1}Understanding Percentages}{29}{}%
 \contentsline {subsection}{\numberline {4.4.2}Converting Percentages to Fractions and Decimals}{29}{}%
