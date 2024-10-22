@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  21 OCT 2024 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  22 OCT 2024 07:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,15 +844,15 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25624 strings out of 474485
- 667849 string characters out of 5760148
+ 25623 strings out of 474485
+ 667831 string characters out of 5760148
  1943542 words of memory out of 5000000
- 47387 multiletter control sequences out of 15000+600000
+ 47386 multiletter control sequences out of 15000+600000
  570032 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,93p,780b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on math_book.pdf (113 pages, 430120 bytes).
+Output written on math_book.pdf (113 pages, 429814 bytes).
 PDF statistics:
  460 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
