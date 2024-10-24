@@ -8,26 +8,220 @@ Geometry helps us understand the properties of shapes and spaces, and how to mea
 In this chapter, we’ll explore the basics of geometry, focusing on shapes, angles, areas, and volumes, and how to apply these concepts in real-life situations.
 
 \section{Basic Geometric Shapes and Their Properties}
-Let’s start by getting familiar with the most common 2D shapes (two-dimensional, flat shapes) and 3D shapes (three-dimensional, solid shapes).
+Let’s start by getting familiar with the most common geometric ideas. Points are like the dot on a number line it has not length, widght or hight. Next we can think of a line of a set of continuous points. This line continues on in both directions to infinity. In Euclidean geometry, an angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle. Now lets consider 2D shapes (two-dimensional, flat shapes) and 3D shapes (three-dimensional, solid shapes).
+
+\subsection{\textbf{Notation:}}
+We use certain symbols and terms to describe geometric shapes and concepts. Here are some common ones:
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|l|}
+        \hline
+        \textbf{Symbol} & \textbf{Meaning} \\ \hline
+        $\alpha, \beta, \gamma$ & Angles \\ \hline
+        $A, B, C$ & Vertices of a triangle \\ \hline
+        $a, b, c$ & Sides of a triangle and the side of a square \\ \hline
+        $r$ & Radius of a circle \\ \hline
+        $h$ & Height of a triangle or the height of a cylinder \\ \hline
+        $l$ & Length of a rectangle or the length of a rectangular prism \\ \hline
+        $w$ & Width of a rectangle or the width of a rectangular prism \\ \hline
+        $s$ & Side of a cube \\ \hline
+        $d$ & Diameter of a circle \\ \hline
+        $V$ & Volume of a 3D shape \\ \hline
+        $P$ & Perimeter of a 2D shape \\ \hline
+        $A$ & Area of a 2D shape \\ \hline
+        $\pi$ & The constant pi, approximately 3.14159 \\ \hline
+    \end{tabular}
+    \caption{Notation used in Geometry}
+    \label{tab:notation}
+\end{table}
+
+\subsection{Point}
+A point represents a location in space. It has no length, width, or height.
+We can represent a point visually as a dot on a coordinate plane:
+\[
+\begin{tikzpicture}
+    \filldraw (0,0) circle (2pt);
+    \node[below] at (0,0) {Point};
+\end{tikzpicture}
+\]
+
+\subsection{Lines}
+A line is a set of continuous points that extends infinitely in both directions. It has no thickness.
+\[
+\begin{tikzpicture}
+    \draw (-2,0) -- (2,0);
+    \node[below] at (0,0) {Line};
+\end{tikzpicture}
+\]
+
+\subsection{Angle}
+An angle is formed when two lines meet at a point. The size of an angle is measured in degrees. The degrees are notated with a small circle in the upper right corner of the number. Minutes and seconds are noted as follows: one degree is divided into 60 minutes (notated with a single quote, e.g., \(45^\circ 30'\)), and one minute is divided into 60 seconds (notated with a double quote, e.g., \(45^\circ 30' 15''\)).
+
+\[
+\begin{tikzpicture}
+    % Draw the base line
+    \draw (0,0) -- (2,0);
+    \node[below] at (1,0) {a};
+    % Draw the second line
+    \draw (0,0) -- (1.2,1.4);
+    \node[above] at (0.25,0.5) {b};
+    % Add the angle label
+    \node[right] at (1,0.75) {Angle \(45^\circ 30' 15''\)};
+    % Draw the arc representing the angle
+    \draw (0.45,0) arc[start angle=0, end angle=45.5042, radius=0.5];
+\end{tikzpicture}
+\]
+
+\subsection{*Right Angle}
+A right angle measures exactly 90 degrees. It looks like the corner of a square.
+\textbf{Note:} The symbol for a right angle is a small square in the corner of the angle.
+\[
+\begin{tikzpicture}
+    % Draw the base line
+    \draw (0,0) -- (2,0);
+    \draw (0,0) -- (0,2);
+    % Add the angle label
+    \node[right] at (1,0.75) {Angle \(90^\circ\)};
+    \node[above] at (0,1) {Right Angle};
+    % Draw the square symbol for a right angle
+    \draw[red] (0,0) rectangle (0.5,0.5);
+\end{tikzpicture}
+\]
 
 \subsection{2D Shapes}
 \subsubsection{Square}
 \begin{itemize}
     \item All four sides are equal in length.
     \item Each angle is 90 degrees (a right angle).
+    \item A is the length and hight of the square.
 \end{itemize}
+
+\[
+\begin{tikzpicture}
+    % Draw a square
+    \draw (0,0) rectangle (2,2);
+
+    % Draw right angle symbols inside the square
+    \node (A) at (-.5,1) {A};
+    \draw[red] (0,0) rectangle (0.5,0.5);
+    \node (A) at (2.5,1) {A};
+    \draw[red] (1.5,0) rectangle (2,0.5);
+    \node (B) at (1,-.5) {A};
+    \draw[red] (0,1.5) rectangle (0.5,2);
+    \node (C) at (1,2.5) {A};
+    \draw[red] (1.5,1.5) rectangle (2,2);
+
+    % Add a label below the square
+    \node[left] at (1.7,1) {Square};
+\end{tikzpicture}
+\]
 
 \subsubsection{Rectangle}
 \begin{itemize}
     \item Opposite sides are equal in length.
     \item Each angle is 90 degrees.
+    \item A hight and B width of the rectangle.
 \end{itemize}
 
+\[
+\begin{tikzpicture}
+    \draw (0,0) -- (4,0) -- (4,2) -- (0,2) -- cycle;
+    \node[below] at (2,1.25) {Rectangle};
+    % Draw right angle symbols inside the square
+    \node (A) at (-.5,1) {A};
+    \draw[red] (0,0) rectangle (0.5,0.5);
+    \node (A) at (4.5,1) {A};
+    \draw[red] (3.5,0) rectangle (4,0.5);
+    \node (B) at (2,-.5) {B};
+    \draw[red] (0,1.5) rectangle (0.5,2);
+    \node (C) at (2,2.5) {B};   
+    \draw[red] (3.5,1.5) rectangle (4,2);
+\end{tikzpicture}
+\]
 \subsubsection{Triangle}
 \begin{itemize}
     \item A shape with three sides.
     \item The sum of the angles inside any triangle is always 180 degrees.
 \end{itemize}
+\[
+\begin{tikzpicture}
+    \draw (0,0) -- (2,4) -- (4,0) -- cycle;
+    \node[below] at (2,0) {Triangle};
+    \node[below left] at (0,0) {$A$};
+    \node[above] at (2,4) {$B$};
+    \node[below right] at (4,0) {$C$};
+    \node[below left] at (1,2) {$\alpha$};
+    \node[below right] at (3,2) {$\beta$};
+    \node[above] at (2,1) {$\gamma$};
+\end{tikzpicture}
+\]
+
+\[ 
+\begin{tikzpicture}
+    \draw (0,0) -- (2,4) -- (4,0) -- cycle;
+    \node[below] at (2,0) {Isosceles Triangle};
+    \node[below left] at (0,0) {$A$};
+    \node[above] at (2,4) {$B$};
+    \node[below right] at (4,0) {$C$};
+    \node[below left] at (1,2) {$\alpha$};
+    \node[below right] at (3,2) {$\alpha$};
+    \node[above] at (2,1) {$\beta$};
+    \draw (.5,0) arc[start angle=0, end angle=63.43, radius=0.5];
+    \draw (3.5,0) arc[start angle=180, end angle=116.57, radius=0.5];
+    \draw (1.75,3.5) arc[start angle=240, end angle=300, radius=0.5];
+    \node[above right] at (3,3) {\(53^\circ 8' 24''\)};
+    \node[below left] at (-0.5,0) {\(63^\circ 25' 48''\)};
+    \node[below right] at (4.5,0) {\(63^\circ 25' 48''\)};
+\end{tikzpicture}
+\]
+
+\subsubsection{Equilateral Triangle}
+\begin{itemize}
+    \item A triangle with all sides of equal length.
+    \item All angles are equal.
+    \item Each angle measures 60 degrees.
+    \item The sum of the angles inside any triangle is always 180 degrees.
+    \item The sum of the angles inside an equilateral triangle is always 180 degrees.
+\end{itemize}
+
+\[
+\begin{tikzpicture}
+    \draw (0,0) -- (2,3.46) -- (4,0) -- cycle;
+    \node[below] at (2,0) {Equilateral Triangle};
+    \node[below left] at (0,0) {$A$};
+    \node[above] at (2,3.46) {$B$};
+    \node[below right] at (4,0) {$C$};
+    \node[below left] at (.75,1.75) {$\alpha$};
+    \node[below right] at (3.25,1.75) {$\alpha$};
+    \node[above] at (,0.25) {$\alpha$};
+    \node[below left] at (0,0.5) {$60^\circ$};
+    \node[below right] at (4,0.5) {$60^\circ$};
+    \node[above] at (3,3) {$60^\circ$};
+    \draw (0.5,0) arc[start angle=0, end angle=60, radius=0.5];
+    \draw (3.5,0) arc[start angle=180, end angle=120, radius=0.5];
+    \draw (1.75,3) arc[start angle=240, end angle=300, radius=0.5];
+\end{tikzpicture}
+\]
+
+\subsubsection{Scalene Triangle}
+\begin{itemize}
+    \item A triangle with all sides of different lengths.
+    \item All angles are different.
+\end{itemize}
+
+\begin{tikzpicture}
+    \draw (0,0) -- (3,0) -- (2,2.75) -- cycle;
+    \node[below] at (1.5,0) {Scalene Triangle};
+    \node[below left] at (0,0) {$A$};
+    \node[below right] at (3,0) {$B$};
+    \node[above] at (2,2.75) {$C$};
+    \node[below left] at (-0.25,0.5) {$38^\circ$};
+    \node[below right] at (3,0.5) {$70^\circ$};
+    \node[above] at (2.5,2) {$72^\circ$};
+    \draw (0.3,0) arc[start angle=0, end angle=38, radius=0.5];
+    \draw (2.5,0) arc[start angle=180, end angle=110, radius=0.5];
+    \draw (1.6,2.25) arc[start angle=255, end angle=320, radius=0.5];
+\end{tikzpicture}
 
 \subsubsection{Circle}
 \begin{itemize}
