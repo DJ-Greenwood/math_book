@@ -391,19 +391,6 @@ If a circle has a radius of 3 units:
 \text{Area} = 3.14 \times 3^2 = 28.26 \text{ square units} \quad (\text{where } \pi \approx 3.14)
 \]
 
-\section{Exploring Angles}
-An angle is formed when two lines meet at a point. The size of an angle is measured in degrees.
-
-\subsection{Types of Angles}
-\begin{itemize}
-    \item \textbf{Right angle:} Measures exactly 90 degrees (like the corners of a square).
-    \item \textbf{Acute angle:} Measures less than 90 degrees.
-    \item \textbf{Obtuse angle:} Measures more than 90 degrees but less than 180 degrees.
-    \item \textbf{Straight angle:} Measures exactly 180 degrees.
-\end{itemize}
-
-You can measure angles using a protractor, which helps you see exactly how many degrees the angle has.
-
 \section{Volume: Measuring 3D Shapes}
 Just as we can measure the area of 2D shapes, we can measure the volume of 3D shapes. Volume tells us how much space is inside a 3D object, like how much water a box can hold.
 
@@ -484,6 +471,112 @@ Geometry has countless real-world applications. Here are a few examples:
 \end{itemize}
 
 \subsection{Challenge Question}
-You have a garden in the shape of a rectangle. The garden is 10 meters long and 6 meters wide. You want to fence the garden and plant flowers in the entire space. How much fencing will you need (perimeter), and how many square meters of flowers will you plant (area)?
+\begin{enumerate}[label=(\alph*)]
+    \item You have a circular garden with a radius of 5 meters. You want to fence the garden and plant flowers in the entire space. How much fencing will you need (circumference), and how many square meters of flowers will you plant (area)?
 
+    \begin{tikzpicture}
+        % Draw the circular garden
+        \draw[thick] (0,0) circle(2.5);
+        \node[above] at (0,2.75) {Radius = 5 meters};
+        \node[right] at (2.75,0) {Circumference};
+        \node[right] at (2.75,-1) {= \(2 \times \pi \times 5 = 31.42\) meters};
+        \node[right] at (2,-2) {Area = \(\pi \times 5^2 = 78.54\) square meters};
+        \node at (0,0) {Circular Garden};
+    \end{tikzpicture}
 
+    \item You have a triangular playground with a base of 12 meters and a height of 8 meters. You want to calculate the total area for children to play and determine how much fencing is needed around all three sides if the other two sides are 10 meters and 13 meters. How much fencing will you need (perimeter), and what is the area?
+
+    \begin{tikzpicture}
+        % Draw the triangular playground
+        \draw[thick] (0,0) -- (6,0) -- (3,4) -- cycle;
+        \node[below] at (3,0) {12 meters};
+        \node[above] at (3,4.25) {Height = 8 meters};
+        \node[below left] at (.5,2) {10 meters};
+        \node[below right] at (5.5,2) {13 meters};
+        \node[below] at (3,-.5) {Perimeter = \(10 + 12 + 13 = 35\) meters};
+        \node[below] at (3,-1) {Area = \(\frac{1}{2} \times 12 \times 8 = 48\) square meters};
+        \node at (3,2) {Playground};
+    \end{tikzpicture}
+    \pagebreak
+    \item You have a circular swimming pool with a diameter of 10 meters. You want to install a fence around it and calculate the amount of water the pool can hold (area). How much fencing will you need (circumference), and how many square meters of water will the pool hold (area)?
+  
+    \begin{tikzpicture}
+        % Draw the circular swimming pool
+        \draw[thick] (0,0) circle(2.5);
+        \node[above] at (0,2.75) {Diameter = 10 meters};
+        \node[right] at (2.75,0) {Circumference};
+        \node[right] at (2.75,-1)  {= \(\pi \times 10 = 31.42\) meters};
+        \node[right] at (2,-2) {Area = \(\pi \times 5^2 = 78.54\) square meters};
+        \node at (0,0) {Swimming Pool};
+    \end{tikzpicture}
+
+    \item You have a trapezoidal parking lot with parallel sides of 20 meters and 10 meters, and the height between the parallel sides is 8 meters. You want to enclose the parking lot with a fence. How much fencing will you need (perimeter), and what is the total area (area)?
+
+    \begin{tikzpicture}
+        % Draw the trapezoidal parking lot
+        \draw[thick] (0,0) -- (10,0) -- (7.5,4) -- (2.5,4) -- cycle;
+        \node[below] at (5,0) {20 meters};
+        \node[above] at (5,4.25) {Height = 8 meters};
+        \node[below] at (5,4) {10 meters};
+        \node[below] at (5,-.5) {Perimeter = \(20 + 10 + 8 + 8 = 46\) meters};
+        \node[below] at (5,-1) {Area = \(\frac{1}{2} \times (20 + 10) \times 8 = 120\) square meters};
+        \node at (5,2) {Parking Lot};
+    \end{tikzpicture}
+    \pagebreak
+    \item You have a semicircular basketball court with a diameter of 28 meters. You need to install a fence around the curved edge of the court and determine the playing area. How much fencing will you need (perimeter of curved edge), and how many square meters of playing area will you have?
+
+    \begin{tikzpicture}
+        % Draw the semicircular basketball court
+        \draw[thick] (0,0) arc[start angle=0,end angle=180,radius=7];
+        \draw[thick] (0,0) -- (-14,0);
+        \node[below] at (-7,-0.5) {Diameter = 28 meters};
+        \node[below] at (-7,-1.5) {Curved Perimeter = \(\pi \times 14 = 43.98\) meters};
+        \node[below] at (-7,-2.5) {Area = \(\frac{1}{2} \times \pi \times 14^2 = 307.88\) square meters};
+        \node at (-7,2) {Basketball Court};
+    \end{tikzpicture}
+    \pagebreak
+    \item You have a pentagonal courtyard where each side is 5 meters long. You plan to fence it and determine the area. How much fencing will you need (perimeter), and what is the area of the courtyard?
+
+    \begin{tikzpicture}
+        % Draw the pentagonal courtyard
+        \draw[thick] (0,0) -- (4.7,0) -- (5.85,4.55) -- (2.35,7.39) -- (-1.15,4.55) -- cycle;
+        \node[below] at (2.35,-0.5) {5 meters each side};
+        \node[below] at (2.35,-1.5) {Perimeter = \(5 \times 5 = 25\) meters};
+        \node[below] at (2.35,-2.5) {Area = \( \frac{1}{4} \times \sqrt{5(5 + 2\sqrt{5})} \times 5^2 = 43.01\) square meters};
+        \node at (2.35,4) {Pentagonal Courtyard};
+    \end{tikzpicture}
+    \pagebreak
+    \item You have an equilateral triangle garden with each side measuring 10 meters. You want to install a fence around it and calculate the planting area. How much fencing will you need (perimeter), and how many square meters of flowers will you plant (area)?
+
+    \begin{tikzpicture}
+        % Draw the equilateral triangle garden
+        \draw[thick] (0,0) -- (10,0) -- (5,8.66) -- cycle;
+        \node[below] at (5,0) {10 meters};
+        \node[below] at (5,-1) {Perimeter = \(3 \times 10 = 30\) meters};
+        \node[below] at (5,-2) {Area = \(\frac{\sqrt{3}}{4} \times 10^2 = 43.3\) square meters};
+        \node at (5,4) {Triangle Garden};
+    \end{tikzpicture}
+
+    \item You have an octagonal patio where each side is 4 meters long. You want to install fencing around the entire patio and cover it with tiles. How much fencing will you need (perimeter), and what is the area?
+
+    \begin{tikzpicture}
+        % Draw the octagonal patio
+        \draw[thick] (0,0) -- (3,1) -- (4,3) -- (3,5) -- (0,6) -- (-3,5) -- (-4,3) -- (-3,1) -- cycle;
+        \node[below] at (0,-1) {4 meters each side};
+        \node[below] at (0,-2) {Perimeter = \(8 \times 4 = 32\) meters};
+        \node[below] at (0,-3) {Area = \(2 \times (1 + \sqrt{2}) \times 4^2 = 77.25\) square meters};
+        \node at (0,3) {Octagonal Patio};
+    \end{tikzpicture}
+    \pagebreak
+    \item You have a circular classroom rug with a radius of 6 meters. You plan to calculate the length of the border and the total area to be covered by the rug. How much border material will you need (circumference), and how much area will the rug cover?
+
+    \begin{tikzpicture}
+        % Draw the circular classroom rug
+        \draw[thick] (0,0) circle(6);
+        \node[above] at (0,6.5) {Radius = 6 meters};
+        \node[below] at (0,-1) {Circumference = \(2 \times \pi \times 6 = 37.70\) meters};
+        \node[below] at (0,-2) {Area = \(\pi \times 6^2 = 113.10\) square meters};
+        \node at (0,0) {Classroom Rug};
+    \end{tikzpicture}
+    
+\end{enumerate}

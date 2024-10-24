@@ -58,11 +58,31 @@ Used to compare quantities across different categories. Each bar represents a ca
     \addplot coordinates {(Sarah,4) (John,3) (Maria,5) (David,2)};
     \end{axis}
 \end{tikzpicture}
-
 \subsection{Line Graph}
 Used to show changes over time. A line connects data points to show how something increases or decreases.
 
-\textbf{Example:} If you track the temperature throughout the day, a line graph could show the changes.
+\textbf{Example:} If you track the temperature throughout a month, a line graph could show the daily changes in temperature.
+\textbf{Example:} A line graph showing temperature changes over a 30-day period in Fahrenheit:
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xlabel={Days},
+            ylabel={Temperature (°F)},
+            xtick={1,5,10,15,20,25,30},
+            ymin=40,
+            ymax=80,
+            grid=major,
+            width=12cm,
+            height=7cm
+        ]
+        \addplot coordinates {(1,65) (2,67) (3,62) (4,64) (5,68) (6,70) (7,72) 
+        (8,74) (9,75) (10,72) (11,70) (12,68) (13,66) (14,64) 
+        (15,62) (16,60) (17,63) (18,65) (19,67) (20,70) 
+        (21,72) (22,74) (23,75) (24,76) (25,78) (26,77) 
+        (27,75) (28,72) (29,70) (30,68)};
+        \end{axis}
+    \end{tikzpicture}
+\end{center}
 
 \subsection{Pie Chart}
 Used to show parts of a whole. Each "slice" of the pie represents a percentage of the total.
