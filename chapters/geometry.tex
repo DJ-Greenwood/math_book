@@ -548,14 +548,25 @@ Geometry has countless real-world applications. Here are a few examples:
     \end{tikzpicture}
     \pagebreak
     \item You have an equilateral triangle garden with each side measuring 10 meters. You want to install a fence around it and calculate the planting area. How much fencing will you need (perimeter), and how many square meters of flowers will you plant (area)?
-
+    
     \begin{tikzpicture}
         % Draw the equilateral triangle garden
-        \draw[thick] (0,0) -- (10,0) -- (5,8.66) -- cycle;
-        \node[below] at (5,0) {10 meters};
-        \node[below] at (5,-1) {Perimeter = \(3 \times 10 = 30\) meters};
-        \node[below] at (5,-2) {Area = \(\frac{\sqrt{3}}{4} \times 10^2 = 43.3\) square meters};
-        \node at (5,4) {Triangle Garden};
+        \draw (0,0) -- (2,3.46) -- (4,0) -- cycle;
+        \node[below] at (2,0) {Equilateral Triangle};
+        \node[below left] at (0,0) {$A$};
+        \node[above] at (2,3.46) {$B$};
+        \node[below right] at (4,0) {$C$};
+        \node[below left] at (.75,1.75) {$\alpha$};
+        \node[below right] at (3.25,1.75) {$\alpha$};
+        \node[above] at (2,0.25) {$\alpha$};
+        \node[below left] at (0,0.5) {$60^\circ$};
+        \node[below right] at (4,0.5) {$60^\circ$};
+        \node[above right] at (2.5,3) {$60^\circ$};
+        \draw (0.5,0) arc[start angle=0, end angle=60, radius=0.5];
+        \draw (3.5,0) arc[start angle=180, end angle=120, radius=0.5];
+        \draw (1.75,3) arc[start angle=240, end angle=300, radius=0.5];
+        \node[above right] at (2,-1) {Perimeter = \(3 \times 10 = 30\) meters};
+        \node[above right] at (2,-2) {Area = \(\frac{\sqrt{3}}{4} \times 10^2 = 43.30\) square meters};
     \end{tikzpicture}
 
     \item You have an octagonal patio where each side is 4 meters long. You want to install fencing around the entire patio and cover it with tiles. How much fencing will you need (perimeter), and what is the area?
