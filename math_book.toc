@@ -148,8 +148,7 @@
 \contentsline {subsection}{\numberline {7.9.2}Data Interpretation}{64}{}%
 \contentsline {section}{\numberline {7.10}Real-Life Applications of Data and Probability}{65}{}%
 \contentsline {section}{\numberline {7.11}Chapter Summary}{65}{}%
-\contentsline {subsection}{\numberline {7.11.1}Challenge Question:}{65}{}%
-\contentsline {subsection}{\numberline {7.11.2}Challenge Questions with Visuals}{65}{}%
+\contentsline {subsection}{\numberline {7.11.1}Challenge Questions with Visuals}{65}{}%
 \contentsline {chapter}{\numberline {8}Advanced Algebra – Functions, Graphs, and Equations}{69}{}%
 \contentsline {section}{\numberline {8.1}Introduction: The Power of Algebra in Solving Real-World Problems}{69}{}%
 \contentsline {section}{\numberline {8.2}What Is a Function?}{69}{}%
