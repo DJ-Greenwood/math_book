@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  27 OCT 2024 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  27 OCT 2024 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,38 +537,54 @@ Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/Ti
 \pgfpie@explodeLength=\count333
 \pgfpie@colorLength=\count334
 \pgfpie@sliceLength=\count335
-))
-\c@example=\count336
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 38.
+)) (C:\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen291
+\captionmargin=\dimen292
+\caption@leftmargin=\dimen293
+\caption@rightmargin=\dimen294
+\caption@width=\dimen295
+\caption@indent=\dimen296
+\caption@parindent=\dimen297
+\caption@hangindent=\dimen298
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count336
+\c@continuedfloat=\count337
+)
+\c@example=\count338
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 41.
  (math_book.aux (chapters/introduction.aux) (chapters/addition_and_subtraction.aux) (chapters/updated_multiplication_and_division.aux) (chapters/fractions_decimals_percentages.aux) (chapters/algebra.aux) (chapters/geometry.aux) (chapters/Data_and_Probability.aux) (chapters/Advanced_Algebra.aux) (chapters/calculus.aux) (chapters/Trigonometry.aux) (chapters/Abstract_Math.aux) (chapters/Understanding_Infinity.aux) (chapters/Modern_math.aux) (chapters/Advanced_Geomerty.aux) (chapters/Discrete_Mathematics.aux) (chapters/conclusion.aux) (chapters/Definitions.aux))
 \openout1 = `math_book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
  (C:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count337
-\scratchdimen=\dimen291
+\scratchcounter=\count339
+\scratchdimen=\dimen299
 \scratchbox=\box123
-\nofMPsegments=\count338
-\nofMParguments=\count339
+\nofMPsegments=\count340
+\nofMParguments=\count341
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count340
-\MPscratchDim=\dimen292
-\MPnumerator=\count341
-\makeMPintoPDFobject=\count342
+\MPscratchCnt=\count342
+\MPscratchDim=\dimen300
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
 \everyMPtoPDFconversion=\toks52
 ) (C:\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -576,19 +592,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 38.
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 (C:\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 38.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 41.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
  (C:\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
  (C:\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -729,7 +745,9 @@ Overfull \hbox (14.92453pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Introduction: Why Data and Prob-a-bil-ity Mat-
  []
 
-[59] [60] [61] [62]
+[59]
+Package pgfplots info on input line 57: Using 'lua backend=false' for axis: x coord trafo unsupported.
+ [60] [61] [62]
 Overfull \hbox (9.68298pt too wide) in paragraph at lines 197--197
 []\OT1/cmr/bx/n/14.4 Understanding Av-er-ages (Mean, Me-dian, and
  []
@@ -796,27 +814,30 @@ Underfull \vbox (badness 1194) has occurred while \output is active []
 
 
 
-] [84] [85] [86]
-Overfull \hbox (9.75014pt too wide) in paragraph at lines 142--143
+] [84] [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86] [87] [88] [89]
+Overfull \hbox (9.75014pt too wide) in paragraph at lines 315--316
 []\OT1/cmr/bx/n/10 Engineering: \OT1/cmr/m/n/10 En-gi-neers use cal-cu-lus to model sys-tems that in-volve changes,
  []
 
-) [87] [88]
+[90]) [91]
 \openout2 = `chapters/Trigonometry.aux'.
 
- (chapters/Trigonometry.tex
+ (chapters/Trigonometry.tex [92
+
+
+
+
+]
 Chapter 10.
 
 Overfull \hbox (42.74788pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Introduction: Un-der-stand-ing the World Through
  []
 
-[89
-
-
-
-
-] [90] [91] [92] [93]) [94]
+[93] [94] [95] [96] [97]) [98]
 \openout2 = `chapters/Abstract_Math.aux'.
 
  (chapters/Abstract_Math.tex
@@ -826,27 +847,27 @@ Overfull \hbox (0.1829pt too wide) in paragraph at lines 4--4
 []\OT1/cmr/bx/n/14.4 Introduction: The Struc-ture Be-hind Math-
  []
 
-[95
+[99
 
 
 
 
-] [96] [97]
+] [100] [101]
 Overfull \hbox (0.38965pt too wide) in paragraph at lines 139--139
 []\OT1/cmr/bx/n/14.4 Mathematical Logic and Proofs in Real Life 
  []
 
-[98] [99]) [100]
+[102] [103]) [104]
 \openout2 = `chapters/Understanding_Infinity.aux'.
 
  (chapters/Understanding_Infinity.tex
 Chapter 12.
-[101
+[105
 
 
 
 
-] [102] [103] [104] [105]) [106]
+] [106] [107] [108] [109]) [110]
 \openout2 = `chapters/Modern_math.aux'.
 
  (chapters/Modern_math.tex
@@ -856,12 +877,12 @@ Overfull \hbox (3.24792pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Introduction: The In-ter-sec-tion of Math and
  []
 
-[107
+[111
 
 
 
 
-] [108] [109] [110] [111]
+] [112] [113] [114] [115]
 Overfull \hbox (5.98616pt too wide) in paragraph at lines 151--151
 []\OT1/cmr/bx/n/14.4 Combining Lin-ear Al-ge-bra, Prob-a-bil-ity, and
  []
@@ -871,7 +892,7 @@ Overfull \hbox (6.1318pt too wide) in paragraph at lines 162--163
 []\OT1/cmr/bx/n/10 Modeling Un-cer-tainty: \OT1/cmr/m/n/10 Many ma-chine learn-ing al-go-rithms, like Bayesian
  []
 
-[112]
+[116]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.54448pt, for example:
@@ -879,17 +900,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.54448pt}.
 
-[113]) [114]
+[117]) [118]
 \openout2 = `chapters/Advanced_Geomerty.aux'.
 
  (chapters/Advanced_Geomerty.tex
 Chapter 14.
-[115
+[119
 
 
 
 
-] [116]
+] [120]
 Overfull \hbox (1.36053pt too wide) in paragraph at lines 51--52
 []\OT1/cmr/m/n/10 A cir-cle and an oval are topo-log-i-cally the same be-cause one can be stretched
  []
@@ -899,15 +920,15 @@ Overfull \hbox (0.63942pt too wide) in paragraph at lines 69--70
 []\OT1/cmr/m/n/10 Computer graph-ics: Frac-tals are used to cre-ate re-al-is-tic land-scapes, clouds,
  []
 
-[117]
+[121]
 Overfull \hbox (10.10248pt too wide) in paragraph at lines 117--118
 \OT1/cmr/m/n/10 struc-tures like curved build-ings, geodesic domes, and bridges. Non-Euclidean
  []
 
-[118]) [119]
+[122]) [123]
 \openout2 = `chapters/Discrete_Mathematics.aux'.
 
- (chapters/Discrete_Mathematics.tex [120
+ (chapters/Discrete_Mathematics.tex [124
 
 
 
@@ -922,54 +943,54 @@ Overfull \hbox (0.7313pt too wide) in paragraph at lines 3--3
 
 Underfull \vbox (badness 2913) has occurred while \output is active []
 
- [121]
+ [125]
 Overfull \hbox (11.4212pt too wide) in paragraph at lines 49--49
 []\OT1/cmr/bx/n/14.4 Combinatorics: Count-ing and Ar-range-ments 
  []
 
-[122] [123] [124]
+[126] [127] [128]
 Overfull \hbox (13.63124pt too wide) in paragraph at lines 129--129
 []\OT1/cmr/bx/n/14.4 Algorithms in Graph The-ory, Com-bi-na-torics,
  []
 
-[125] [126]) [127]
+[129] [130]) [131]
 \openout2 = `chapters/conclusion.aux'.
 
- (chapters/conclusion.tex [128
+ (chapters/conclusion.tex [132
 
 
 
 
 ]
 Chapter 16.
-) [129]
+) [133]
 \openout2 = `chapters/Definitions.aux'.
 
- (chapters/Definitions.tex [130
+ (chapters/Definitions.tex [134
 
 
 
 
 ]
 Chapter 17.
-[131] [132]) [133] (math_book.aux (chapters/introduction.aux) (chapters/addition_and_subtraction.aux) (chapters/updated_multiplication_and_division.aux) (chapters/fractions_decimals_percentages.aux) (chapters/algebra.aux) (chapters/geometry.aux) (chapters/Data_and_Probability.aux) (chapters/Advanced_Algebra.aux) (chapters/calculus.aux) (chapters/Trigonometry.aux) (chapters/Abstract_Math.aux) (chapters/Understanding_Infinity.aux) (chapters/Modern_math.aux) (chapters/Advanced_Geomerty.aux) (chapters/Discrete_Mathematics.aux) (chapters/conclusion.aux) (chapters/Definitions.aux))
+[135] [136]) [137] (math_book.aux (chapters/introduction.aux) (chapters/addition_and_subtraction.aux) (chapters/updated_multiplication_and_division.aux) (chapters/fractions_decimals_percentages.aux) (chapters/algebra.aux) (chapters/geometry.aux) (chapters/Data_and_Probability.aux) (chapters/Advanced_Algebra.aux) (chapters/calculus.aux) (chapters/Trigonometry.aux) (chapters/Abstract_Math.aux) (chapters/Understanding_Infinity.aux) (chapters/Modern_math.aux) (chapters/Advanced_Geomerty.aux) (chapters/Discrete_Mathematics.aux) (chapters/conclusion.aux) (chapters/Definitions.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 30580 strings out of 474485
- 806540 string characters out of 5760148
- 1945542 words of memory out of 5000000
- 52297 multiletter control sequences out of 15000+600000
+ 31955 strings out of 474485
+ 832654 string characters out of 5760148
+ 1948542 words of memory out of 5000000
+ 53666 multiletter control sequences out of 15000+600000
  570032 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,93p,780b,2190s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,780b,2223s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on math_book.pdf (133 pages, 499600 bytes).
+Output written on math_book.pdf (137 pages, 520176 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
+ 544 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  19 words of extra memory for PDF output out of 10000 (max. 10000000)
 

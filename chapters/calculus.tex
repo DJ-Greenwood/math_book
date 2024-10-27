@@ -18,12 +18,185 @@ A derivative tells us how a function is changing at any given point. It measures
 In algebra, the slope of a line is a measure of its steepness, and it tells us how fast one variable changes with respect to another. In calculus, the slope is used to describe the instantaneous rate of change of a function.
 
 \subsection{Example}
+
 For a linear function like \( f(x) = 2x + 3 \), the slope is constant. The derivative of this function is 2, meaning the rate of change is the same no matter where you are on the line.
+
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = middle,
+            xlabel = \(x\),
+            ylabel = {\(f(x)\)},
+            ymin=-1, ymax=10,
+            xmin=-2, xmax=5,
+            grid = major,
+            width=10cm,
+            height=6cm,
+            domain=-2:5,
+            samples=100,
+            title={Graph of \( f(x) = 2x + 3 \)}
+        ]
+        \addplot[blue, thick] {2*x + 3};
+    \end{axis}
+    \end{tikzpicture}
+    \captionof{figure}{Graph of the linear function \( f(x) = 2x + 3 \). The slope is constant across the entire line.}
+\end{center}
 
 But what happens when the function isn’t a straight line? For functions that curve, like \( f(x) = x^2 \), the slope (or rate of change) varies depending on the point. The derivative helps us figure out the slope at any point along the curve.
 
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = middle,
+            xlabel = \(x\),
+            ylabel = {\(f(x)\)},
+            ymin=-1, ymax=10,
+            xmin=-2, xmax=5,
+            grid = major,
+            width=10cm,
+            height=6cm,
+            domain=-2:5,
+            samples=100,
+            title={Graph of \( f(x) = x^2 \)}
+        ]
+        \addplot[blue, thick] {x^2};
+        \addplot[red, dashed, thick, domain=-2:5] {2*x} node [pos=0.7, right] {Tangent Line};
+    \end{axis}
+    \end{tikzpicture}
+    \captionof{figure}{Graph of the quadratic function \( f(x) = x^2 \). The red dashed line shows a tangent at a point, illustrating the slope at that specific point.}
+\end{center}
+
 \section{Finding Derivatives}
+
 The derivative of a function is found using rules that make the process easier. These rules simplify how we calculate the rate of change for different types of functions.
+
+\begin{itemize}
+    \item \textbf{Power Rule:} If \( f(x) = x^n \), then the derivative is \( f'(x) = nx^{n-1} \).
+    \item \textbf{Constant Rule:} The derivative of a constant function is zero.
+    \item \textbf{Sum Rule:} The derivative of the sum of functions is the sum of their derivatives.
+    \item \textbf{Product Rule:} If \( f(x) = g(x) \cdot h(x) \), then the derivative is \( f'(x) = g'(x)h(x) + g(x)h'(x) \).
+    \item \textbf{Quotient Rule:} If \( f(x) = \frac{g(x)}{h(x)} \), then the derivative is:
+    \[
+    f'(x) = \frac{g'(x)h(x) - g(x)h'(x)}{h(x)^2}
+    \]
+    \item \textbf{Chain Rule:} If \( f(x) = g(h(x)) \), then the derivative is \( f'(x) = g'(h(x)) \cdot h'(x) \).
+\end{itemize}
+\begin{itemize}
+    \item \textbf{Power Rule:} If \( f(x) = x^n \), then the derivative is \( f'(x) = nx^{n-1} \).
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-1, ymax=10,
+                xmin=-1, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-1:3,
+                samples=100,
+                title={Power Rule Example: \( f(x) = x^3 \), \( f'(x) = 3x^2 \)}
+            ]
+            \addplot[blue, thick] {x^3};
+            \addplot[red, dashed, thick] {3*x^2};
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{Graph of \( f(x) = x^3 \) (blue) and its derivative \( f'(x) = 3x^2 \) (red dashed). The derivative represents the rate of change of the curve.}
+    \end{center}
+
+    \item \textbf{Constant Rule:} The derivative of a constant function is zero.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-1, ymax=5,
+                xmin=-3, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                title={Constant Function: \( f(x) = 3 \), \( f'(x) = 0 \)}
+            ]
+            \addplot[blue, thick] {3};
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{Graph of the constant function \( f(x) = 3 \). The slope of this function is zero everywhere, hence \( f'(x) = 0 \).}
+    \end{center}
+
+    \item \textbf{Sum Rule:} The derivative of the sum of functions is the sum of their derivatives.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-2, ymax=10,
+                xmin=-2, xmax=4,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-2:4,
+                samples=100,
+                title={Sum Rule Example: \( f(x) = x^2 + 2x \), \( f'(x) = 2x + 2 \)}
+            ]
+            \addplot[blue, thick] {x^2 + 2*x};
+            \addplot[red, dashed, thick] {2*x + 2};
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{Graph of \( f(x) = x^2 + 2x \) (blue) and its derivative \( f'(x) = 2x + 2 \) (red dashed). The derivative is the sum of the derivatives of \( x^2 \) and \( 2x \).}
+    \end{center}
+
+    \item \textbf{Product Rule:} If \( f(x) = g(x) \cdot h(x) \), then the derivative is \( f'(x) = g'(x)h(x) + g(x)h'(x) \).
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-3, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-3:3,
+                samples=100,
+                title={Product Rule Example: \( f(x) = x \cdot (x+1) \)}
+            ]
+            \addplot[blue, thick] {x * (x + 1)};
+            \addplot[red, dashed, thick] {x + 2*x + 1};
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{Graph of the product function \( f(x) = x(x+1) \) (blue) and its derivative \( f'(x) = x + 2x + 1 \) (red dashed). The product rule combines the derivatives of both factors.}
+    \end{center}
+\end{itemize}
+
+
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = middle,
+            xlabel = \(x\),
+            ylabel = {\(f'(x)\)},
+            ymin=-10, ymax=10,
+            xmin=-5, xmax=5,
+            grid = major,
+            width=10cm,
+            height=6cm,
+            domain=-5:5,
+            samples=100,
+            title={Derivative of \( f(x) = x^2 \)}
+        ]
+        \addplot[blue, thick] {2*x};
+    \end{axis}
+    \end{tikzpicture}
+    \caption{Graph of the derivative \( f'(x) = 2x \) of the function \( f(x) = x^2 \). The slope of \( f(x) \) changes depending on the value of \( x \).}
+\end{figure}
+
+In the examples above, the linear function \( f(x) = 2x + 3 \) has a constant rate of change of 2, which is the slope of the line. In contrast, the quadratic function \( f(x) = x^2 \) has a rate of change that varies depending on \( x \). The derivative \( f'(x) = 2x \) gives the slope of the tangent to the curve at any given point.
+
 
 \subsection{Basic Rules for Derivatives}
 \begin{enumerate}
