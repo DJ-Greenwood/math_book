@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  24 OCT 2024 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  24 OCT 2024 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -745,12 +745,12 @@ Overfull \hbox (9.68298pt too wide) in paragraph at lines 197--197
 ]
 Chapter 8.
 [69] [70] [71] [72]
-Overfull \hbox (29.28627pt too wide) in paragraph at lines 169--169
+Overfull \hbox (29.28627pt too wide) in paragraph at lines 171--171
 []\OT1/cmr/bx/n/14.4 Real-Life Ap-pli-ca-tions of Func-tions and Graphs 
  []
 
 [73]
-Overfull \hbox (0.80618pt too wide) in paragraph at lines 181--182
+Overfull \hbox (0.80618pt too wide) in paragraph at lines 183--184
 []\OT1/cmr/m/n/10 You can solve lin-ear equa-tions by iso-lat-ing the vari-able, and solve quadratic
  []
 
