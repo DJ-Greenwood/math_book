@@ -71,18 +71,7 @@ But what happens when the function isn’t a straight line? For functions that c
 The derivative of a function is found using rules that make the process easier. These rules simplify how we calculate the rate of change for different types of functions.
 
 \begin{itemize}
-    \item \textbf{Power Rule:} If \( f(x) = x^n \), then the derivative is \( f'(x) = nx^{n-1} \).
-    \item \textbf{Constant Rule:} The derivative of a constant function is zero.
-    \item \textbf{Sum Rule:} The derivative of the sum of functions is the sum of their derivatives.
-    \item \textbf{Product Rule:} If \( f(x) = g(x) \cdot h(x) \), then the derivative is \( f'(x) = g'(x)h(x) + g(x)h'(x) \).
-    \item \textbf{Quotient Rule:} If \( f(x) = \frac{g(x)}{h(x)} \), then the derivative is:
-    \[
-    f'(x) = \frac{g'(x)h(x) - g(x)h'(x)}{h(x)^2}
-    \]
-    \item \textbf{Chain Rule:} If \( f(x) = g(h(x)) \), then the derivative is \( f'(x) = g'(h(x)) \cdot h'(x) \).
-\end{itemize}
-\begin{itemize}
-    \item \textbf{Power Rule:} If \( f(x) = x^n \), then the derivative is \( f'(x) = nx^{n-1} \).
+    \item \textbf{Power Rule:} If \( f(x) = x^n \), then the derivative is \( f'(x) = n \cdot x^{n-1} \).
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
@@ -148,7 +137,44 @@ The derivative of a function is found using rules that make the process easier. 
         \captionof{figure}{Graph of \( f(x) = x^2 + 2x \) (blue) and its derivative \( f'(x) = 2x + 2 \) (red dashed). The derivative is the sum of the derivatives of \( x^2 \) and \( 2x \).}
     \end{center}
 
-    \item \textbf{Product Rule:} If \( f(x) = g(x) \cdot h(x) \), then the derivative is \( f'(x) = g'(x)h(x) + g(x)h'(x) \).
+    \item \textbf{Product Rule:} This is a formula for finding the derivative of the product of two differentiable functions. Suppose we have two functions, \( g(x) \) and \( h(x) \), both of which are functions of \( x \). We define a new function \( f(x) \) as the product of these two functions:
+
+    \[
+    f(x) = g(x) \cdot h(x)
+    \]
+    
+    To find the derivative of \( f(x) \), which is \( f'(x) \), we need to determine how \( f(x) \) changes with respect to \( x \). According to the Product Rule, the derivative of \( f(x) \) is given by:
+    
+    \[
+    f'(x) = g'(x) \cdot h(x) + g(x) \cdot h'(x)
+    \]
+    
+    \subsubsection{Explanation}
+    
+    1. \( g'(x) \cdot h(x) \): This term represents the rate of change of \( g(x) \) (i.e., \( g'(x) \)), while \( h(x) \) remains constant.
+       
+    2. \( g(x) \cdot h'(x) \): This term represents the rate of change of \( h(x) \) (i.e., \( h'(x) \)), while \( g(x) \) remains constant.
+    
+    By combining these two parts, we capture how both functions contribute to the rate of change of their product. This approach avoids treating \( g(x) \) and \( h(x) \) as independent since they both vary with \( x \).
+    
+    \subsubsection{Example}
+    
+    If \( f(x) = x^2 \cdot \sin(x) \):
+    
+    1. Set \( g(x) = x^2 \) and \( h(x) = \sin(x) \).
+    2. Compute \( g'(x) = 2x \) and \( h'(x) = \cos(x) \).
+    3. Substitute into the Product Rule:
+    
+       \[
+       f'(x) = (2x) \cdot \sin(x) + x^2 \cdot \cos(x)
+       \]
+    
+    This gives the derivative of the product \( f(x) = x^2 \cdot \sin(x) \) as:
+    
+    \[
+    f'(x) = 2x \sin(x) + x^2 \cos(x)
+    \]
+    
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
