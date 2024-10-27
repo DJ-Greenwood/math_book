@@ -15,18 +15,18 @@ You can picture fractions by thinking of a pie or pizza. Imagine cutting a pizza
 
 \begin{center}
     \begin{tikzpicture}
-        % Draw the pizza
-        \filldraw[fill=blue!50] (0,0) circle (1);
-        % Draw the slices
-        \draw (0,0) -- (0:0);
-        \draw (0,0) -- (90:1);
-        \draw (0,0) -- (180:1);
-        \draw (0,0) -- (270:1);
-        \draw (0,0) -- (360:1);
-        % Shade the eaten slices
-        \fill[green!50, opacity=0.5] (0,0) -- (0:1) arc (0:180:1) -- cycle;
+        \pie[
+            text=legend,
+            radius=3,
+            color={red, green, yellow}
+        ]{
+            25/Pizza Slices,
+            25/Pizza Slices,
+            25/Pizza Slices,
+            25/Pizza Slices
+        }
     \end{tikzpicture}
-    \end{center}
+\end{center}
 
 \subsection{Key Vocabulary}
 \begin{itemize}
