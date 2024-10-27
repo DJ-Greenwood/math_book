@@ -26,38 +26,58 @@ So, the output is 11 when the input is 4.
 Another Example: If \( x = -2 \), then:
 \[ f(-2) = 2(-2) + 3 = -4 + 3 = -1 \]
 
+\section{Line Graphs}
+
+A line graph visually represents a function, showing how the output changes with varying input. It helps identify patterns and relationships between variables.
+
+\subsection{Graphing Linear Functions}
+
+To graph a linear function \( f(x) = mx + b \):
+
+\begin{enumerate}
+    \item Identify the slope (\( m \)) and y-intercept (\( b \)).
+    \item Plot the y-intercept at point \((0, b)\).
+    \item Use the slope to determine another point: from \((0, b)\), move right 1 unit and up or down by \( m \).
+    \item Draw a straight line through the points.
+\end{enumerate}
+
+\textbf{Example:} Graph \( f(x) = -\frac{1}{2}x + 3 \).
+
+\begin{itemize}
+    \item \( b = 3 \), so plot \((0, 3)\).
+    \item \( m = -\frac{1}{2} \): for every 1 unit right, move 0.5 units down. Plot \((2, 2)\).
+    \item Connect the points with a line.
+\end{itemize}
+
 \section{Linear Functions}
-A linear function is a type of function where the graph forms a straight line. Linear functions follow the form:
-\[ f(x) = mx + b \]
 
+A linear function forms a straight line and follows:
 
+\[
+f(x) = mx + b
+\]
 
 Where:
 \begin{itemize}
-    \item \( m \) is the slope of the line, representing how steep it is.
-    \item \( b \) is the y-intercept, the point where the line crosses the y-axis (when \( x = 0 \)).
+    \item \( m \): slope (how steep the line is)
+    \item \( b \): y-intercept (where the line crosses the y-axis)
 \end{itemize}
 
-Example of a Linear Function:
-\[ f(x) = 2x + 1 \]
+\textbf{Example:} \( f(x) = 2x + 1 \).
+
 \begin{itemize}
-    \item The slope is 2 (for every 1 unit increase in \( x \), \( f(x) \) increases by 2).
-    \item The y-intercept is 1 (the line crosses the y-axis at the point (0,1)).
+    \item \( m = 2 \), meaning for each 1 unit increase in \( x \), \( f(x) \) increases by 2.
+    \item \( b = 1 \), so the line crosses at \((0, 1)\).
 \end{itemize}
 
-Graphing a Linear Function:
+To graph:
+
 \begin{enumerate}
-    \item Start by finding the y-intercept (\( b \)).
-    \item Use the slope (\( m \)) to plot additional points.
-    \item Draw a line through the points.
+    \item Plot \( (0, 1) \).
+    \item From \((0, 1)\), use the slope to plot \((1, 3)\).
+    \item Draw a straight line through the points.
 \end{enumerate}
 
-Example: For \( f(x) = 2x + 1 \):
-\begin{itemize}
-    \item The y-intercept is 1, so start by plotting the point (0,1).
-    \item The slope is 2, meaning for every 1 unit you move to the right, move 2 units up. So plot the point (1,3).
-    \item Connect the points with a straight line.
-\end{itemize}
 
 \section{Solving Linear Equations}
 A linear equation is an equation that makes a straight line when graphed. Solving a linear equation means finding the value of the variable (usually \( x \)) that makes the equation true.
@@ -72,25 +92,175 @@ Example: Solve \( 3x + 4 = 13 \).
 The solution is \( x = 3 \).
 
 \section{Quadratic Functions}
+
 A quadratic function is more complex than a linear function and has the form:
-\[ f(x) = ax^2 + bx + c \]
+\[
+f(x) = ax^2 + bx + c
+\]
 
-Where \( a \), \( b \), and \( c \) are constants.
+Where \( a \), \( b \), and \( c \) are constants. In contrast to linear functions, which graph as straight lines, the graph of a quadratic function is a curve called a parabola.
 
-The graph of a quadratic function is a curve called a parabola. Parabolas can open upward or downward, depending on the sign of \( a \):
 \begin{itemize}
-    \item If \( a > 0 \), the parabola opens upward.
-    \item If \( a < 0 \), the parabola opens downward.
+    \item If \( a > 0 \), the parabola opens \textbf{upward}.
+    \item If \( a < 0 \), the parabola opens \textbf{downward}.
 \end{itemize}
 
-Example of a Quadratic Function:
-\[ f(x) = x^2 - 4x + 3 \]
+\textbf{Example:} Consider the quadratic function:
+\[
+f(x) = x^2 - 4x + 3
+\]
 
-Graphing a Quadratic Function:
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = middle,
+            xlabel = \(x\),
+            ylabel = {\(f(x)\)},
+            ymin=-3, ymax=5,
+            xmin=-1, xmax=5,
+            grid = major,
+            width=10cm,
+            height=6cm,
+            domain=-1:5,
+            samples=100,
+            title={Graph of the Quadratic Function \( f(x) = x^2 - 4x + 3 \)}
+        ]
+        \addplot[blue, thick] {x^2 - 4*x + 3};
+        \addplot[only marks, mark=*] coordinates {(2,-1) (1,0) (3,0)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{The graph of the quadratic function \( f(x) = x^2 - 4x + 3 \). It shows the vertex, axis of symmetry, and additional points.}
+\end{figure}
+
+\subsection{Graphing a Quadratic Function}
+
+The process of graphing a quadratic function involves several steps, which help illustrate the function's behavior and its differences from linear functions.
+
 \begin{enumerate}
-    \item Find the vertex, which is the highest or lowest point of the parabola.
-    \item Plot the vertex and other points on both sides to create a symmetric curve.
+    \item \textbf{Find the Vertex:}
+    \begin{itemize}
+        \item The vertex represents the highest or lowest point of the parabola, depending on whether it opens upward or downward.
+        \item Use the formula for the x-coordinate of the vertex:
+        \[
+        x = -\frac{b}{2a}
+        \]
+        \item Substitute this value of \( x \) into the function \( f(x) \) to find the y-coordinate of the vertex:
+        \[
+        y = f\left( -\frac{b}{2a} \right)
+        \]
+        \item The vertex is at the point \(\left( -\frac{b}{2a}, f\left( -\frac{b}{2a} \right) \right)\).
+    \end{itemize}
+    
+    \item \textbf{Determine Whether the Parabola Opens Upward or Downward:}
+    \begin{itemize}
+        \item If \( a > 0 \), the parabola opens upward, and the vertex is the minimum point.
+        \item If \( a < 0 \), the parabola opens downward, and the vertex is the maximum point.
+    \end{itemize}
+    
+    \item \textbf{Plot the Vertex:}
+    \begin{itemize}
+        \item Plot the vertex on the graph.
+    \end{itemize}
+    
+    \item \textbf{Find the Axis of Symmetry:}
+    \begin{itemize}
+        \item The axis of symmetry is the vertical line passing through the vertex, which divides the parabola into two mirror images.
+        \item The equation of the axis of symmetry is:
+        \[
+        x = -\frac{b}{2a}
+        \]
+    \end{itemize}
+    
+    \item \textbf{Plot Additional Points:}
+    \begin{itemize}
+        \item Choose x-values to the left and right of the vertex to find additional points on the parabola.
+        \item Substitute these x-values into the function to calculate the corresponding y-values.
+        \item Plot these points on the graph.
+        \item Due to symmetry about the axis of symmetry, points on one side of the vertex will have corresponding points on the opposite side.
+    \end{itemize}
+    
+    \item \textbf{Draw the Parabola:}
+    \begin{itemize}
+        \item Connect the vertex and all additional points with a smooth curve to create the parabola.
+        \item Make sure the curve passes through all plotted points and extends infinitely in both directions.
+    \end{itemize}
 \end{enumerate}
+
+\subsection{Example: Graphing the Quadratic Function \( f(x) = x^2 - 4x + 3 \)}
+
+Let's apply the steps to graph \( f(x) = x^2 - 4x + 3 \).
+
+\begin{itemize}
+    \item \textbf{Find the Vertex:}
+    \begin{enumerate}[label=(\alph*)]
+        \item \( a = 1 \), \( b = -4 \), \( c = 3 \).
+        \item Find the x-coordinate of the vertex:
+        \[
+        x = -\frac{-4}{2 \times 1} = 2
+        \]
+        \item Find the y-coordinate by substituting \( x = 2 \) into \( f(x) \):
+        \[
+        y = (2)^2 - 4(2) + 3 = -1
+        \]
+        \item The vertex is at \( (2, -1) \).
+    \end{enumerate}
+    
+    \item \textbf{Axis of Symmetry:} \( x = 2 \).
+    
+    \item \textbf{Plot Additional Points:}
+    \begin{enumerate}[label=(\alph*)]
+        \item Choose values for \( x \), such as \( x = 1 \) and \( x = 3 \).
+        \item When \( x = 1 \):
+        \[
+        f(1) = 1^2 - 4(1) + 3 = 0
+        \]
+        Plot the point \( (1, 0) \).
+        \item When \( x = 3 \):
+        \[
+        f(3) = 3^2 - 4(3) + 3 = 0
+        \]
+        Plot the point \( (3, 0) \).
+    \end{enumerate}
+    
+    \item \textbf{Draw the Parabola:} Connect the vertex and the points \( (1, 0) \), \( (3, 0) \) with a smooth curve.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = middle,
+            xlabel = \(x\),
+            ylabel = {\(f(x)\)},
+            ymin=-3, ymax=5,
+            xmin=-1, xmax=5,
+            grid = major,
+            width=10cm,
+            height=6cm,
+            domain=-1:5,
+            samples=100,
+            title={Graph of \( f(x) = x^2 - 4x + 3 \)}
+        ]
+        \addplot[blue, thick] {x^2 - 4*x + 3};
+        \addplot[only marks, mark=*] coordinates {(2,-1) (1,0) (3,0)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Graph of the quadratic function \( f(x) = x^2 - 4x + 3 \) showing the vertex, axis of symmetry, and additional points.}
+\end{figure}
+
+\subsection{Connecting Quadratic Functions to Linear Functions}
+
+Quadratic functions and linear functions differ significantly in their graphical representation and behavior:
+
+\begin{itemize}
+    \item \textbf{Linear functions} graph as straight lines, indicating constant rates of change.
+    \item \textbf{Quadratic functions} graph as parabolas, showing non-linear relationships where the rate of change itself changes.
+    \item The vertex of a quadratic function represents a turning point, unlike linear functions that have no such feature.
+\end{itemize}
+
+These differences make quadratic functions useful for modeling scenarios involving acceleration or deceleration, while linear functions are better suited for constant change. The visual representation highlights these distinctions and helps to understand the underlying relationships between variables.
+
 
 \section{Factoring Quadratic Equations}
 One method for solving quadratic equations is factoring. This involves rewriting the quadratic equation in a way that allows you to find the values of \( x \) that make the equation true.
@@ -184,5 +354,205 @@ So, the solution is \( x = 2 \) and \( y = 1 \).
     \item Systems of equations involve solving two or more equations together to find where their graphs intersect.
 \end{itemize}
 
-\section*{Challenge Question}
-Graph the function \( f(x) = 2x^2 - 4x + 1 \), find the vertex, and identify where the graph crosses the x-axis and y-axis.
+\section{Challenge Questions with Graphs}
+\begin{enumerate}
+    \item Graph the function \( f(x) = x^2 - 2x - 3 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = x^2 - 2x - 3 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = -x^2 + 4x - 4 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = -x^2 + 4x - 4 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = 2x^2 - 3x + 1 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = 2x^2 - 3x + 1 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = -2x^2 + 5x - 3 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = -2x^2 + 5x - 3 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = x^2 + 4x + 4 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = x^2 + 4x + 4 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = -x^2 - 2x + 3 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = -x^2 - 2x + 3 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = 3x^2 - 6x + 2 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = 3x^2 - 6x + 2 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = -3x^2 + 2x + 1 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = -3x^2 + 2x + 1 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = x^2 - 6x + 9 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = x^2 - 6x + 9 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item Graph the function \( f(x) = -x^2 + 3x - 2 \). Identify the vertex and the points where the graph crosses the x-axis and y-axis.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = {\(f(x)\)},
+                ymin=-10, ymax=10,
+                xmin=-5, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-5:5,
+                samples=100,
+                title={Graph of \( f(x) = -x^2 + 3x - 2 \)}
+            ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+\end{enumerate}
