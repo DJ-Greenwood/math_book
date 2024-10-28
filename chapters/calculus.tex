@@ -44,7 +44,6 @@ A derivative tells us how a function is changing at any given point. It measures
     \caption{Common Calculus Notations for Derivatives and Integrals}
 \end{table}
 
-
 \subsection{The Concept of Slope}
 In algebra, the slope of a line is a measure of its steepness, and it tells us how fast one variable changes with respect to another. In calculus, the slope is used to describe the instantaneous rate of change of a function.
 
@@ -291,11 +290,49 @@ Derivatives are incredibly useful in real-world scenarios. Let’s look at a few
 
     \textbf{Example:} Suppose the profit function of a business is \( P(x) = -2x^2 + 12x + 5 \), where \( x \) is the number of items produced and sold.
     \begin{itemize}
-        \item To maximize profit, we find the critical points by setting the derivative to zero:
-        \[ P'(x) = -4x + 12 \]
-        \[ -4x + 12 = 0 \Rightarrow x = 3 \]
-        \item At \( x = 3 \), the business achieves maximum profit.
+        \item To maximize profit, we first need to find the critical points of the profit function. Critical points occur where the derivative is zero or undefined, as these points can indicate potential maximum or minimum values.
+    
+        \item Given the profit function \( P(x) = -2x^2 + 12x + 5 \), we start by finding its first derivative, \( P'(x) \), which gives us the rate of change of profit with respect to the quantity \( x \):
+        \[
+        P(x) = -2x^2 + 12x + 5
+        \]
+        \[
+        P'(x) = \frac{d}{dx}(-2x^2 + 12x + 5) = -4x + 12
+        \]
+    
+        \item To find the critical points, we set \( P'(x) \) equal to zero and solve for \( x \):
+        \[
+        -4x + 12 = 0
+        \]
+        \[
+        -4x = -12
+        \]
+        \[
+        x = 3
+        \]
+        
+        \item We now have a critical point at \( x = 3 \). To confirm whether this point is a maximum, we can examine the second derivative \( P''(x) \):
+        
+        \item Calculating the second derivative:
+        \[
+        P''(x) = \frac{d}{dx}(-4x + 12) = -4
+        \]
+        Since \( P''(x) = -4 < 0 \), the second derivative is negative, indicating that the graph of \( P(x) \) is concave down at \( x = 3 \). Therefore, \( x = 3 \) is indeed a maximum point.
+    
+        \item Thus, at \( x = 3 \), the business achieves maximum profit. To find the maximum profit value, we substitute \( x = 3 \) back into the original profit function:
+        \[
+        P(3) = -2(3)^2 + 12 \cdot 3 + 5
+        \]
+        \[
+        = -2 \cdot 9 + 36 + 5
+        \]
+        \[
+        = -18 + 36 + 5 = 23
+        \]
+    
+        \item Therefore, the maximum profit the business can achieve is \( P(3) = 23 \) when \( x = 3 \).
     \end{itemize}
+    
 
     \begin{center}
         \begin{tikzpicture}
@@ -303,8 +340,8 @@ Derivatives are incredibly useful in real-world scenarios. Let’s look at a few
                 axis lines = middle,
                 xlabel = $x$,
                 ylabel = {$P(x)$},
-                ymin=-10, ymax=20,
-                xmin=0, xmax=6,
+                ymin=-10, ymax=30,
+                xmin=-2, xmax=8,
                 grid = major,
                 width=10cm,
                 height=6cm,
@@ -324,11 +361,48 @@ Derivatives are incredibly useful in real-world scenarios. Let’s look at a few
 
     \textbf{Example:} Let \( f(x) = x^2 \). To find the tangent line at \( x = 1 \):
     \begin{itemize}
-        \item Compute the derivative: \( f'(x) = 2x \).
-        \item At \( x = 1 \), the slope of the tangent line is \( f'(1) = 2 \).
-        \item The equation of the tangent line at \( x = 1 \) is given by:
-        \[ y = f(1) + f'(1)(x - 1) = 1 + 2(x - 1) = 2x - 1 \]
+        \item We start with the function \( f(x) = x^2 \), and we want to find the equation of the tangent line to this function at the point \( x = 1 \).
+    
+        \item To find the slope of the tangent line, we compute the derivative of \( f(x) \), which gives us the rate of change of \( f(x) \) at any point \( x \):
+        \[
+        f(x) = x^2
+        \]
+        \[
+        f'(x) = \frac{d}{dx}(x^2) = 2x
+        \]
+    
+        \item Now, we evaluate the derivative at \( x = 1 \) to find the slope of the tangent line at this point:
+        \[
+        f'(1) = 2 \cdot 1 = 2
+        \]
+        Thus, the slope of the tangent line at \( x = 1 \) is \( 2 \).
+    
+        \item Next, we need the coordinates of the point on the curve at \( x = 1 \) to write the tangent line's equation. We substitute \( x = 1 \) into the original function \( f(x) = x^2 \) to find \( f(1) \):
+        \[
+        f(1) = (1)^2 = 1
+        \]
+        So, the point of tangency on the curve is \( (1, 1) \).
+    
+        \item With the point \( (1, 1) \) and the slope \( 2 \), we can now write the equation of the tangent line. The equation of a line with slope \( m \) passing through a point \( (x_0, y_0) \) is given by:
+        \[
+        y = y_0 + m(x - x_0)
+        \]
+        Substituting \( x_0 = 1 \), \( y_0 = 1 \), and \( m = 2 \), we get:
+        \[
+        y = 1 + 2(x - 1)
+        \]
+    
+        \item Expanding and simplifying this expression, we find:
+        \[
+        y = 1 + 2x - 2 = 2x - 1
+        \]
+        
+        \item Therefore, the equation of the tangent line to the curve \( f(x) = x^2 \) at the point \( x = 1 \) is:
+        \[
+        y = 2x - 1
+        \]
     \end{itemize}
+    
 
     \begin{center}
         \begin{tikzpicture}
