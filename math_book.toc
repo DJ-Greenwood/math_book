@@ -180,176 +180,176 @@
 \contentsline {subsection}{\numberline {9.5.1}The Concept of Area}{92}{}%
 \contentsline {section}{\numberline {9.6}Finding Integrals}{92}{}%
 \contentsline {subsection}{\numberline {9.6.1}Basic Rules for Integrals}{92}{}%
-\contentsline {section}{\numberline {9.7}Applications of Integrals}{93}{}%
-\contentsline {section}{\numberline {9.8}Fundamental Theorem of Calculus}{93}{}%
-\contentsline {section}{\numberline {9.9}Practice Makes Perfect: Let’s Try Some Exercises!}{94}{}%
-\contentsline {subsection}{\numberline {9.9.1}Derivatives}{94}{}%
-\contentsline {subsection}{\numberline {9.9.2}Integrals}{94}{}%
-\contentsline {subsection}{\numberline {9.9.3}Applications}{94}{}%
-\contentsline {section}{\numberline {9.10}Real-Life Applications of Calculus}{94}{}%
-\contentsline {section}{\numberline {9.11}Chapter Summary}{94}{}%
-\contentsline {section}{\numberline {9.12}Challenge Question}{95}{}%
-\contentsline {chapter}{\numberline {10}Trigonometry – Angles and Waves}{97}{}%
-\contentsline {section}{\numberline {10.1}Introduction: Understanding the World Through Trigonometry}{97}{}%
-\contentsline {section}{\numberline {10.2}Right Triangles and Trigonometric Ratios}{97}{}%
-\contentsline {subsection}{\numberline {10.2.1}Trigonometric Ratios}{97}{}%
-\contentsline {section}{\numberline {10.3}Using Trigonometric Ratios}{98}{}%
-\contentsline {subsection}{\numberline {10.3.1}Example 1: Finding the Length of a Side}{98}{}%
-\contentsline {section}{\numberline {10.4}The Pythagorean Theorem}{98}{}%
-\contentsline {subsection}{\numberline {10.4.1}Example}{99}{}%
-\contentsline {section}{\numberline {10.5}Angles in Degrees and Radians}{99}{}%
-\contentsline {subsection}{\numberline {10.5.1}Converting Between Degrees and Radians}{99}{}%
-\contentsline {subsubsection}{Example}{99}{}%
-\contentsline {subsubsection}{Example}{99}{}%
-\contentsline {section}{\numberline {10.6}The Unit Circle}{100}{}%
-\contentsline {subsection}{\numberline {10.6.1}Key Angles on the Unit Circle}{100}{}%
-\contentsline {section}{\numberline {10.7}Graphs of Sine and Cosine}{100}{}%
-\contentsline {subsection}{\numberline {10.7.1}Graph of Sine (sin)}{100}{}%
-\contentsline {subsection}{\numberline {10.7.2}Graph of Cosine (cos)}{100}{}%
-\contentsline {section}{\numberline {10.8}Applications of Trigonometry}{100}{}%
-\contentsline {section}{\numberline {10.9}Practice Makes Perfect: Let’s Try Some Exercises!}{101}{}%
-\contentsline {subsection}{\numberline {10.9.1}Trigonometric Ratios}{101}{}%
-\contentsline {subsection}{\numberline {10.9.2}Right Triangles}{101}{}%
-\contentsline {subsection}{\numberline {10.9.3}Graphing}{101}{}%
-\contentsline {section}{\numberline {10.10}Real-Life Applications of Trigonometry}{101}{}%
-\contentsline {section}{\numberline {10.11}Chapter Summary}{102}{}%
-\contentsline {section}{\numberline {10.12}Challenge Question}{102}{}%
-\contentsline {chapter}{\numberline {11}Abstract Math – Logic, Sets, and Proofs}{103}{}%
-\contentsline {section}{\numberline {11.1}Introduction: The Structure Behind Mathematics}{103}{}%
-\contentsline {section}{\numberline {11.2}What Is Logic?}{103}{}%
-\contentsline {subsection}{\numberline {11.2.1}Logical Statements}{103}{}%
-\contentsline {subsection}{\numberline {11.2.2}Logical Operations}{104}{}%
-\contentsline {subsection}{\numberline {11.2.3}Example}{104}{}%
-\contentsline {section}{\numberline {11.3}What Is a Set?}{104}{}%
-\contentsline {subsection}{\numberline {11.3.1}Notation}{104}{}%
-\contentsline {subsection}{\numberline {11.3.2}Elements of a Set}{105}{}%
-\contentsline {subsection}{\numberline {11.3.3}Types of Sets}{105}{}%
-\contentsline {section}{\numberline {11.4}Set Operations}{105}{}%
-\contentsline {subsection}{\numberline {11.4.1}Union ( \(\cup \) )}{105}{}%
-\contentsline {subsection}{\numberline {11.4.2}Intersection ( \(\cap \) )}{105}{}%
-\contentsline {subsection}{\numberline {11.4.3}Difference ( - )}{105}{}%
-\contentsline {section}{\numberline {11.5}What Is a Proof?}{106}{}%
-\contentsline {subsection}{\numberline {11.5.1}Types of Proofs}{106}{}%
-\contentsline {section}{\numberline {11.6}Mathematical Logic and Proofs in Real Life}{107}{}%
-\contentsline {section}{\numberline {11.7}Practice Makes Perfect: Let’s Try Some Exercises!}{107}{}%
-\contentsline {subsection}{\numberline {11.7.1}Logic}{107}{}%
-\contentsline {subsection}{\numberline {11.7.2}Sets}{107}{}%
-\contentsline {subsection}{\numberline {11.7.3}Proofs}{107}{}%
-\contentsline {section}{\numberline {11.8}Chapter Summary}{107}{}%
-\contentsline {chapter}{\numberline {12}Understanding Infinity – Limits and Advanced Topics}{109}{}%
-\contentsline {section}{\numberline {12.1}Introduction: Exploring the Concept of Infinity}{109}{}%
-\contentsline {section}{\numberline {12.2}What Is a Limit?}{109}{}%
-\contentsline {subsection}{\numberline {12.2.1}Understanding Limits}{109}{}%
-\contentsline {subsection}{\numberline {12.2.2}Left-Hand and Right-Hand Limits}{110}{}%
-\contentsline {section}{\numberline {12.3}Understanding Infinite Sequences}{110}{}%
-\contentsline {subsection}{\numberline {12.3.1}Converging vs. Diverging Sequences}{111}{}%
-\contentsline {section}{\numberline {12.4}What Is an Infinite Series?}{111}{}%
-\contentsline {subsection}{\numberline {12.4.1}Diverging Series}{111}{}%
-\contentsline {section}{\numberline {12.5}Understanding Asymptotes}{112}{}%
-\contentsline {subsection}{\numberline {12.5.1}Vertical Asymptote}{112}{}%
-\contentsline {subsection}{\numberline {12.5.2}Horizontal Asymptote}{112}{}%
-\contentsline {section}{\numberline {12.6}Different Sizes of Infinity}{112}{}%
-\contentsline {subsection}{\numberline {12.6.1}Countable vs. Uncountable Infinity}{112}{}%
-\contentsline {section}{\numberline {12.7}Practice Makes Perfect: Let’s Try Some Exercises!}{113}{}%
-\contentsline {subsection}{\numberline {12.7.1}Limits}{113}{}%
-\contentsline {subsection}{\numberline {12.7.2}Sequences}{113}{}%
-\contentsline {subsection}{\numberline {12.7.3}Series}{113}{}%
-\contentsline {section}{\numberline {12.8}Real-Life Applications of Infinity and Limits}{113}{}%
-\contentsline {section}{\numberline {12.9}Chapter Summary}{113}{}%
-\contentsline {chapter}{\numberline {13}Modern Math – Linear Algebra, Probability, and Machine Learning}{115}{}%
-\contentsline {section}{\numberline {13.1}Introduction: The Intersection of Math and Technology}{115}{}%
-\contentsline {section}{\numberline {13.2}What Is Linear Algebra?}{115}{}%
-\contentsline {subsection}{\numberline {13.2.1}Vectors}{115}{}%
-\contentsline {subsubsection}{Operations on Vectors}{116}{}%
-\contentsline {paragraph}{Vector Addition:}{116}{}%
-\contentsline {paragraph}{Scalar Multiplication:}{116}{}%
-\contentsline {subsection}{\numberline {13.2.2}Matrices}{116}{}%
-\contentsline {subsubsection}{Matrix Operations}{116}{}%
-\contentsline {paragraph}{Matrix Addition:}{116}{}%
-\contentsline {paragraph}{Matrix Multiplication:}{117}{}%
-\contentsline {subsection}{\numberline {13.2.3}Applications of Linear Algebra}{117}{}%
-\contentsline {section}{\numberline {13.3}Probability and Statistics}{117}{}%
-\contentsline {subsection}{\numberline {13.3.1}Basic Probability}{117}{}%
-\contentsline {subsection}{\numberline {13.3.2}Conditional Probability}{118}{}%
-\contentsline {subsection}{\numberline {13.3.3}Bayes’ Theorem}{118}{}%
-\contentsline {section}{\numberline {13.4}Introduction to Machine Learning}{118}{}%
-\contentsline {subsection}{\numberline {13.4.1}Types of Machine Learning}{118}{}%
-\contentsline {paragraph}{Supervised Learning:}{118}{}%
-\contentsline {paragraph}{Unsupervised Learning:}{118}{}%
-\contentsline {paragraph}{Reinforcement Learning:}{118}{}%
-\contentsline {subsection}{\numberline {13.4.2}Key Machine Learning Algorithms}{119}{}%
-\contentsline {paragraph}{Linear Regression:}{119}{}%
-\contentsline {paragraph}{Decision Trees:}{119}{}%
-\contentsline {paragraph}{Neural Networks:}{119}{}%
-\contentsline {section}{\numberline {13.5}Applications of Machine Learning}{119}{}%
-\contentsline {section}{\numberline {13.6}Combining Linear Algebra, Probability, and Machine Learning}{120}{}%
-\contentsline {subsection}{\numberline {13.6.1}Linear Algebra in Machine Learning}{120}{}%
-\contentsline {subsection}{\numberline {13.6.2}Probability in Machine Learning}{120}{}%
-\contentsline {section}{\numberline {13.7}Practice Makes Perfect: Let’s Try Some Exercises!}{120}{}%
-\contentsline {subsection}{\numberline {13.7.1}Linear Algebra}{120}{}%
-\contentsline {subsection}{\numberline {13.7.2}Probability}{121}{}%
-\contentsline {subsection}{\numberline {13.7.3}Machine Learning}{121}{}%
-\contentsline {section}{\numberline {13.8}Real-Life Applications of Linear Algebra, Probability, and Machine Learning}{121}{}%
-\contentsline {section}{\numberline {13.9}Chapter Summary}{121}{}%
-\contentsline {chapter}{\numberline {14}Advanced Geometry – Exploring Shapes, Space, and Higher Dimensions}{123}{}%
-\contentsline {section}{\numberline {14.1}Introduction: The Power of Geometry Beyond the Basics}{123}{}%
-\contentsline {section}{\numberline {14.2}Euclidean vs. Non-Euclidean Geometry}{123}{}%
-\contentsline {subsection}{\numberline {14.2.1}Spherical Geometry}{123}{}%
-\contentsline {subsection}{\numberline {14.2.2}Hyperbolic Geometry}{124}{}%
-\contentsline {section}{\numberline {14.3}Higher Dimensions}{124}{}%
-\contentsline {subsection}{\numberline {14.3.1}Understanding 4D and Beyond}{124}{}%
-\contentsline {section}{\numberline {14.4}Topology: The Study of Shapes and Spaces}{124}{}%
-\contentsline {subsection}{\numberline {14.4.1}Topological Properties}{125}{}%
-\contentsline {subsection}{\numberline {14.4.2}Applications of Topology}{125}{}%
-\contentsline {section}{\numberline {14.5}Fractals and Self-Similarity}{125}{}%
-\contentsline {subsection}{\numberline {14.5.1}Fractal Geometry}{125}{}%
-\contentsline {subsection}{\numberline {14.5.2}Applications of Fractals}{125}{}%
-\contentsline {section}{\numberline {14.6}Geometric Transformations}{125}{}%
-\contentsline {subsection}{\numberline {14.6.1}Types of Transformations}{126}{}%
-\contentsline {subsection}{\numberline {14.6.2}Applications}{126}{}%
-\contentsline {section}{\numberline {14.7}Practice Makes Perfect: Let’s Try Some Exercises!}{126}{}%
-\contentsline {subsection}{\numberline {14.7.1}Non-Euclidean Geometry}{126}{}%
-\contentsline {subsection}{\numberline {14.7.2}Higher Dimensions}{126}{}%
-\contentsline {subsection}{\numberline {14.7.3}Topology}{126}{}%
-\contentsline {subsection}{\numberline {14.7.4}Fractals}{126}{}%
-\contentsline {section}{\numberline {14.8}Real-Life Applications of Advanced Geometry}{127}{}%
-\contentsline {section}{\numberline {14.9}Chapter Summary}{127}{}%
-\contentsline {chapter}{\numberline {15}Discrete Mathematics – Graph Theory, Combinatorics, and Cryptography}{129}{}%
-\contentsline {section}{\numberline {15.1}Introduction: The Power of Discrete Mathematics}{129}{}%
-\contentsline {section}{\numberline {15.2}Graph Theory: Understanding Networks}{129}{}%
-\contentsline {subsection}{\numberline {15.2.1}What Is a Graph?}{130}{}%
-\contentsline {subsection}{\numberline {15.2.2}Types of Graphs}{130}{}%
-\contentsline {subsection}{\numberline {15.2.3}Common Terms in Graph Theory}{130}{}%
-\contentsline {subsection}{\numberline {15.2.4}Applications of Graph Theory}{130}{}%
-\contentsline {section}{\numberline {15.3}Combinatorics: Counting and Arrangements}{131}{}%
-\contentsline {subsection}{\numberline {15.3.1}Permutations}{131}{}%
-\contentsline {subsection}{\numberline {15.3.2}Combinations}{131}{}%
-\contentsline {subsection}{\numberline {15.3.3}Applications of Combinatorics}{132}{}%
-\contentsline {section}{\numberline {15.4}Cryptography: Securing Information}{132}{}%
-\contentsline {subsection}{\numberline {15.4.1}Encryption and Decryption}{132}{}%
-\contentsline {subsection}{\numberline {15.4.2}Symmetric vs. Asymmetric Encryption}{132}{}%
-\contentsline {subsection}{\numberline {15.4.3}Hash Functions}{132}{}%
-\contentsline {subsection}{\numberline {15.4.4}Applications of Cryptography}{133}{}%
-\contentsline {section}{\numberline {15.5}Algorithms in Graph Theory, Combinatorics, and Cryptography}{133}{}%
-\contentsline {subsection}{\numberline {15.5.1}Graph Theory Algorithms}{133}{}%
-\contentsline {subsection}{\numberline {15.5.2}Combinatorics Algorithms}{133}{}%
-\contentsline {subsection}{\numberline {15.5.3}Cryptography Algorithms}{133}{}%
-\contentsline {section}{\numberline {15.6}Practice Makes Perfect: Let’s Try Some Exercises!}{134}{}%
-\contentsline {subsection}{\numberline {15.6.1}Graph Theory}{134}{}%
-\contentsline {subsection}{\numberline {15.6.2}Combinatorics}{134}{}%
-\contentsline {subsection}{\numberline {15.6.3}Cryptography}{134}{}%
-\contentsline {section}{\numberline {15.7}Real-Life Applications of Discrete Mathematics}{134}{}%
-\contentsline {section}{\numberline {15.8}Chapter Summary}{134}{}%
-\contentsline {chapter}{\numberline {16}Conclusion: A Journey Through Mathematics}{137}{}%
-\contentsline {chapter}{\numberline {17}Mathematical Definitions, Notations, and Concepts}{139}{}%
-\contentsline {section}{\numberline {17.1}Addition (+)}{139}{}%
-\contentsline {section}{\numberline {17.2}Subtraction \textendash }{139}{}%
-\contentsline {section}{\numberline {17.3}Multiplication (\( \times \) or \( \cdot \))}{139}{}%
-\contentsline {section}{\numberline {17.4}Division (÷ or /)}{139}{}%
-\contentsline {section}{\numberline {17.5}Fractions}{139}{}%
-\contentsline {section}{\numberline {17.6}Decimals}{140}{}%
-\contentsline {section}{\numberline {17.7}Percentage (\%)}{140}{}%
-\contentsline {section}{\numberline {17.8}Exponents \(\wedge \) or superscript}{140}{}%
-\contentsline {section}{\numberline {17.9}Roots (\(\sqrt {}\))}{140}{}%
-\contentsline {section}{\numberline {17.10}Less than, greater than and inequalities ($<$, $>$, $\leq $, $\geq $)}{140}{}%
-\contentsline {section}{\numberline {17.11}Order of Operations (PEMDAS)}{140}{}%
+\contentsline {section}{\numberline {9.7}Applications of Integrals}{95}{}%
+\contentsline {section}{\numberline {9.8}Fundamental Theorem of Calculus}{97}{}%
+\contentsline {section}{\numberline {9.9}Practice Makes Perfect: Let’s Try Some Exercises!}{97}{}%
+\contentsline {subsection}{\numberline {9.9.1}Derivatives}{97}{}%
+\contentsline {subsection}{\numberline {9.9.2}Integrals}{97}{}%
+\contentsline {subsection}{\numberline {9.9.3}Applications}{98}{}%
+\contentsline {section}{\numberline {9.10}Real-Life Applications of Calculus}{98}{}%
+\contentsline {section}{\numberline {9.11}Chapter Summary}{98}{}%
+\contentsline {section}{\numberline {9.12}Challenge Questions}{98}{}%
+\contentsline {chapter}{\numberline {10}Trigonometry – Angles and Waves}{105}{}%
+\contentsline {section}{\numberline {10.1}Introduction: Understanding the World Through Trigonometry}{105}{}%
+\contentsline {section}{\numberline {10.2}Right Triangles and Trigonometric Ratios}{105}{}%
+\contentsline {subsection}{\numberline {10.2.1}Trigonometric Ratios}{105}{}%
+\contentsline {section}{\numberline {10.3}Using Trigonometric Ratios}{106}{}%
+\contentsline {subsection}{\numberline {10.3.1}Example 1: Finding the Length of a Side}{106}{}%
+\contentsline {section}{\numberline {10.4}The Pythagorean Theorem}{106}{}%
+\contentsline {subsection}{\numberline {10.4.1}Example}{107}{}%
+\contentsline {section}{\numberline {10.5}Angles in Degrees and Radians}{107}{}%
+\contentsline {subsection}{\numberline {10.5.1}Converting Between Degrees and Radians}{107}{}%
+\contentsline {subsubsection}{Example}{107}{}%
+\contentsline {subsubsection}{Example}{107}{}%
+\contentsline {section}{\numberline {10.6}The Unit Circle}{108}{}%
+\contentsline {subsection}{\numberline {10.6.1}Key Angles on the Unit Circle}{108}{}%
+\contentsline {section}{\numberline {10.7}Graphs of Sine and Cosine}{108}{}%
+\contentsline {subsection}{\numberline {10.7.1}Graph of Sine (sin)}{108}{}%
+\contentsline {subsection}{\numberline {10.7.2}Graph of Cosine (cos)}{108}{}%
+\contentsline {section}{\numberline {10.8}Applications of Trigonometry}{108}{}%
+\contentsline {section}{\numberline {10.9}Practice Makes Perfect: Let’s Try Some Exercises!}{109}{}%
+\contentsline {subsection}{\numberline {10.9.1}Trigonometric Ratios}{109}{}%
+\contentsline {subsection}{\numberline {10.9.2}Right Triangles}{109}{}%
+\contentsline {subsection}{\numberline {10.9.3}Graphing}{109}{}%
+\contentsline {section}{\numberline {10.10}Real-Life Applications of Trigonometry}{109}{}%
+\contentsline {section}{\numberline {10.11}Chapter Summary}{110}{}%
+\contentsline {section}{\numberline {10.12}Challenge Question}{110}{}%
+\contentsline {chapter}{\numberline {11}Abstract Math – Logic, Sets, and Proofs}{111}{}%
+\contentsline {section}{\numberline {11.1}Introduction: The Structure Behind Mathematics}{111}{}%
+\contentsline {section}{\numberline {11.2}What Is Logic?}{111}{}%
+\contentsline {subsection}{\numberline {11.2.1}Logical Statements}{111}{}%
+\contentsline {subsection}{\numberline {11.2.2}Logical Operations}{112}{}%
+\contentsline {subsection}{\numberline {11.2.3}Example}{112}{}%
+\contentsline {section}{\numberline {11.3}What Is a Set?}{112}{}%
+\contentsline {subsection}{\numberline {11.3.1}Notation}{112}{}%
+\contentsline {subsection}{\numberline {11.3.2}Elements of a Set}{113}{}%
+\contentsline {subsection}{\numberline {11.3.3}Types of Sets}{113}{}%
+\contentsline {section}{\numberline {11.4}Set Operations}{113}{}%
+\contentsline {subsection}{\numberline {11.4.1}Union ( \(\cup \) )}{113}{}%
+\contentsline {subsection}{\numberline {11.4.2}Intersection ( \(\cap \) )}{113}{}%
+\contentsline {subsection}{\numberline {11.4.3}Difference ( - )}{113}{}%
+\contentsline {section}{\numberline {11.5}What Is a Proof?}{114}{}%
+\contentsline {subsection}{\numberline {11.5.1}Types of Proofs}{114}{}%
+\contentsline {section}{\numberline {11.6}Mathematical Logic and Proofs in Real Life}{115}{}%
+\contentsline {section}{\numberline {11.7}Practice Makes Perfect: Let’s Try Some Exercises!}{115}{}%
+\contentsline {subsection}{\numberline {11.7.1}Logic}{115}{}%
+\contentsline {subsection}{\numberline {11.7.2}Sets}{115}{}%
+\contentsline {subsection}{\numberline {11.7.3}Proofs}{115}{}%
+\contentsline {section}{\numberline {11.8}Chapter Summary}{115}{}%
+\contentsline {chapter}{\numberline {12}Understanding Infinity – Limits and Advanced Topics}{117}{}%
+\contentsline {section}{\numberline {12.1}Introduction: Exploring the Concept of Infinity}{117}{}%
+\contentsline {section}{\numberline {12.2}What Is a Limit?}{117}{}%
+\contentsline {subsection}{\numberline {12.2.1}Understanding Limits}{117}{}%
+\contentsline {subsection}{\numberline {12.2.2}Left-Hand and Right-Hand Limits}{118}{}%
+\contentsline {section}{\numberline {12.3}Understanding Infinite Sequences}{118}{}%
+\contentsline {subsection}{\numberline {12.3.1}Converging vs. Diverging Sequences}{119}{}%
+\contentsline {section}{\numberline {12.4}What Is an Infinite Series?}{119}{}%
+\contentsline {subsection}{\numberline {12.4.1}Diverging Series}{119}{}%
+\contentsline {section}{\numberline {12.5}Understanding Asymptotes}{120}{}%
+\contentsline {subsection}{\numberline {12.5.1}Vertical Asymptote}{120}{}%
+\contentsline {subsection}{\numberline {12.5.2}Horizontal Asymptote}{120}{}%
+\contentsline {section}{\numberline {12.6}Different Sizes of Infinity}{120}{}%
+\contentsline {subsection}{\numberline {12.6.1}Countable vs. Uncountable Infinity}{120}{}%
+\contentsline {section}{\numberline {12.7}Practice Makes Perfect: Let’s Try Some Exercises!}{121}{}%
+\contentsline {subsection}{\numberline {12.7.1}Limits}{121}{}%
+\contentsline {subsection}{\numberline {12.7.2}Sequences}{121}{}%
+\contentsline {subsection}{\numberline {12.7.3}Series}{121}{}%
+\contentsline {section}{\numberline {12.8}Real-Life Applications of Infinity and Limits}{121}{}%
+\contentsline {section}{\numberline {12.9}Chapter Summary}{121}{}%
+\contentsline {chapter}{\numberline {13}Modern Math – Linear Algebra, Probability, and Machine Learning}{123}{}%
+\contentsline {section}{\numberline {13.1}Introduction: The Intersection of Math and Technology}{123}{}%
+\contentsline {section}{\numberline {13.2}What Is Linear Algebra?}{123}{}%
+\contentsline {subsection}{\numberline {13.2.1}Vectors}{123}{}%
+\contentsline {subsubsection}{Operations on Vectors}{124}{}%
+\contentsline {paragraph}{Vector Addition:}{124}{}%
+\contentsline {paragraph}{Scalar Multiplication:}{124}{}%
+\contentsline {subsection}{\numberline {13.2.2}Matrices}{124}{}%
+\contentsline {subsubsection}{Matrix Operations}{124}{}%
+\contentsline {paragraph}{Matrix Addition:}{124}{}%
+\contentsline {paragraph}{Matrix Multiplication:}{125}{}%
+\contentsline {subsection}{\numberline {13.2.3}Applications of Linear Algebra}{125}{}%
+\contentsline {section}{\numberline {13.3}Probability and Statistics}{125}{}%
+\contentsline {subsection}{\numberline {13.3.1}Basic Probability}{125}{}%
+\contentsline {subsection}{\numberline {13.3.2}Conditional Probability}{126}{}%
+\contentsline {subsection}{\numberline {13.3.3}Bayes’ Theorem}{126}{}%
+\contentsline {section}{\numberline {13.4}Introduction to Machine Learning}{126}{}%
+\contentsline {subsection}{\numberline {13.4.1}Types of Machine Learning}{126}{}%
+\contentsline {paragraph}{Supervised Learning:}{126}{}%
+\contentsline {paragraph}{Unsupervised Learning:}{126}{}%
+\contentsline {paragraph}{Reinforcement Learning:}{126}{}%
+\contentsline {subsection}{\numberline {13.4.2}Key Machine Learning Algorithms}{127}{}%
+\contentsline {paragraph}{Linear Regression:}{127}{}%
+\contentsline {paragraph}{Decision Trees:}{127}{}%
+\contentsline {paragraph}{Neural Networks:}{127}{}%
+\contentsline {section}{\numberline {13.5}Applications of Machine Learning}{127}{}%
+\contentsline {section}{\numberline {13.6}Combining Linear Algebra, Probability, and Machine Learning}{128}{}%
+\contentsline {subsection}{\numberline {13.6.1}Linear Algebra in Machine Learning}{128}{}%
+\contentsline {subsection}{\numberline {13.6.2}Probability in Machine Learning}{128}{}%
+\contentsline {section}{\numberline {13.7}Practice Makes Perfect: Let’s Try Some Exercises!}{128}{}%
+\contentsline {subsection}{\numberline {13.7.1}Linear Algebra}{128}{}%
+\contentsline {subsection}{\numberline {13.7.2}Probability}{129}{}%
+\contentsline {subsection}{\numberline {13.7.3}Machine Learning}{129}{}%
+\contentsline {section}{\numberline {13.8}Real-Life Applications of Linear Algebra, Probability, and Machine Learning}{129}{}%
+\contentsline {section}{\numberline {13.9}Chapter Summary}{129}{}%
+\contentsline {chapter}{\numberline {14}Advanced Geometry – Exploring Shapes, Space, and Higher Dimensions}{131}{}%
+\contentsline {section}{\numberline {14.1}Introduction: The Power of Geometry Beyond the Basics}{131}{}%
+\contentsline {section}{\numberline {14.2}Euclidean vs. Non-Euclidean Geometry}{131}{}%
+\contentsline {subsection}{\numberline {14.2.1}Spherical Geometry}{131}{}%
+\contentsline {subsection}{\numberline {14.2.2}Hyperbolic Geometry}{132}{}%
+\contentsline {section}{\numberline {14.3}Higher Dimensions}{132}{}%
+\contentsline {subsection}{\numberline {14.3.1}Understanding 4D and Beyond}{132}{}%
+\contentsline {section}{\numberline {14.4}Topology: The Study of Shapes and Spaces}{132}{}%
+\contentsline {subsection}{\numberline {14.4.1}Topological Properties}{133}{}%
+\contentsline {subsection}{\numberline {14.4.2}Applications of Topology}{133}{}%
+\contentsline {section}{\numberline {14.5}Fractals and Self-Similarity}{133}{}%
+\contentsline {subsection}{\numberline {14.5.1}Fractal Geometry}{133}{}%
+\contentsline {subsection}{\numberline {14.5.2}Applications of Fractals}{133}{}%
+\contentsline {section}{\numberline {14.6}Geometric Transformations}{133}{}%
+\contentsline {subsection}{\numberline {14.6.1}Types of Transformations}{134}{}%
+\contentsline {subsection}{\numberline {14.6.2}Applications}{134}{}%
+\contentsline {section}{\numberline {14.7}Practice Makes Perfect: Let’s Try Some Exercises!}{134}{}%
+\contentsline {subsection}{\numberline {14.7.1}Non-Euclidean Geometry}{134}{}%
+\contentsline {subsection}{\numberline {14.7.2}Higher Dimensions}{134}{}%
+\contentsline {subsection}{\numberline {14.7.3}Topology}{134}{}%
+\contentsline {subsection}{\numberline {14.7.4}Fractals}{134}{}%
+\contentsline {section}{\numberline {14.8}Real-Life Applications of Advanced Geometry}{135}{}%
+\contentsline {section}{\numberline {14.9}Chapter Summary}{135}{}%
+\contentsline {chapter}{\numberline {15}Discrete Mathematics – Graph Theory, Combinatorics, and Cryptography}{137}{}%
+\contentsline {section}{\numberline {15.1}Introduction: The Power of Discrete Mathematics}{137}{}%
+\contentsline {section}{\numberline {15.2}Graph Theory: Understanding Networks}{137}{}%
+\contentsline {subsection}{\numberline {15.2.1}What Is a Graph?}{138}{}%
+\contentsline {subsection}{\numberline {15.2.2}Types of Graphs}{138}{}%
+\contentsline {subsection}{\numberline {15.2.3}Common Terms in Graph Theory}{138}{}%
+\contentsline {subsection}{\numberline {15.2.4}Applications of Graph Theory}{138}{}%
+\contentsline {section}{\numberline {15.3}Combinatorics: Counting and Arrangements}{139}{}%
+\contentsline {subsection}{\numberline {15.3.1}Permutations}{139}{}%
+\contentsline {subsection}{\numberline {15.3.2}Combinations}{139}{}%
+\contentsline {subsection}{\numberline {15.3.3}Applications of Combinatorics}{140}{}%
+\contentsline {section}{\numberline {15.4}Cryptography: Securing Information}{140}{}%
+\contentsline {subsection}{\numberline {15.4.1}Encryption and Decryption}{140}{}%
+\contentsline {subsection}{\numberline {15.4.2}Symmetric vs. Asymmetric Encryption}{140}{}%
+\contentsline {subsection}{\numberline {15.4.3}Hash Functions}{140}{}%
+\contentsline {subsection}{\numberline {15.4.4}Applications of Cryptography}{141}{}%
+\contentsline {section}{\numberline {15.5}Algorithms in Graph Theory, Combinatorics, and Cryptography}{141}{}%
+\contentsline {subsection}{\numberline {15.5.1}Graph Theory Algorithms}{141}{}%
+\contentsline {subsection}{\numberline {15.5.2}Combinatorics Algorithms}{141}{}%
+\contentsline {subsection}{\numberline {15.5.3}Cryptography Algorithms}{141}{}%
+\contentsline {section}{\numberline {15.6}Practice Makes Perfect: Let’s Try Some Exercises!}{142}{}%
+\contentsline {subsection}{\numberline {15.6.1}Graph Theory}{142}{}%
+\contentsline {subsection}{\numberline {15.6.2}Combinatorics}{142}{}%
+\contentsline {subsection}{\numberline {15.6.3}Cryptography}{142}{}%
+\contentsline {section}{\numberline {15.7}Real-Life Applications of Discrete Mathematics}{142}{}%
+\contentsline {section}{\numberline {15.8}Chapter Summary}{142}{}%
+\contentsline {chapter}{\numberline {16}Conclusion: A Journey Through Mathematics}{145}{}%
+\contentsline {chapter}{\numberline {17}Mathematical Definitions, Notations, and Concepts}{147}{}%
+\contentsline {section}{\numberline {17.1}Addition (+)}{147}{}%
+\contentsline {section}{\numberline {17.2}Subtraction \textendash }{147}{}%
+\contentsline {section}{\numberline {17.3}Multiplication (\( \times \) or \( \cdot \))}{147}{}%
+\contentsline {section}{\numberline {17.4}Division (÷ or /)}{147}{}%
+\contentsline {section}{\numberline {17.5}Fractions}{147}{}%
+\contentsline {section}{\numberline {17.6}Decimals}{148}{}%
+\contentsline {section}{\numberline {17.7}Percentage (\%)}{148}{}%
+\contentsline {section}{\numberline {17.8}Exponents \(\wedge \) or superscript}{148}{}%
+\contentsline {section}{\numberline {17.9}Roots (\(\sqrt {}\))}{148}{}%
+\contentsline {section}{\numberline {17.10}Less than, greater than and inequalities ($<$, $>$, $\leq $, $\geq $)}{148}{}%
+\contentsline {section}{\numberline {17.11}Order of Operations (PEMDAS)}{148}{}%

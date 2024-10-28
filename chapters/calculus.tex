@@ -442,38 +442,218 @@ Just like derivatives, there are rules for finding integrals. These rules help y
 
 \subsection{Basic Rules for Integrals}
 \begin{enumerate}
-    \item \textbf{Power Rule for Integrals:} For any function of the form \( f(x) = x^n \), the integral is:
+    \item \textbf{Power Rule for Integrals:} For any function of the form \( f(x) = x^n \), where \( n \neq -1 \), the power rule for integrals allows us to integrate by increasing the exponent by 1 and dividing by the new exponent. Mathematically, this is expressed as:
     \[
     \int x^n \, dx = \frac{x^{n+1}}{n+1} + C
     \]
-    Where \( C \) is a constant (because integrals can have multiple solutions based on starting points).
-    \textbf{Example:}
-    \begin{itemize}
-        \item For \( f(x) = x^2 \), the integral is: \( \int x^2 \, dx = \frac{x^3}{3} + C \)
-    \end{itemize}
-    \item \textbf{Constant Rule for Integrals:} The integral of a constant is the constant times \( x \).
-    \textbf{Example:}
-    \begin{itemize}
-        \item For \( f(x) = 5 \), the integral is: \( \int 5 \, dx = 5x + C \)
-    \end{itemize}
-    \item \textbf{Sum and Difference Rule for Integrals:} You can integrate each part of a sum or difference separately.
-    \textbf{Example:}
-    \begin{itemize}
-        \item For \( f(x) = 3x^2 + 2x \), the integral is: \( \int (3x^2 + 2x) \, dx = x^3 + x^2 + C \)
-    \end{itemize}
+    where \( C \) is the constant of integration, representing an arbitrary constant since indefinite integrals have multiple solutions.
+
+    \textbf{Explanation:} To find the antiderivative of \( x^n \), we observe that differentiating \( \frac{x^{n+1}}{n+1} \) gives \( x^n \) back. This is because applying the reverse of the power rule for derivatives yields the original function, confirming that the integral is correct.
+
+    \textbf{Example:} For \( f(x) = x^2 \), we apply the power rule:
+    \[
+    \int x^2 \, dx = \frac{x^{2+1}}{2+1} + C = \frac{x^3}{3} + C
+    \]
+    This integral shows that the antiderivative of \( x^2 \) is \( \frac{x^3}{3} \) plus a constant \( C \), indicating that any function of the form \( \frac{x^3}{3} + C \) would differentiate back to \( x^2 \).
+
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $x$,
+                ylabel = {$f(x)$},
+                ymin=0, ymax=10,
+                xmin=0, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:3,
+                samples=100,
+                title={Integral of $x^2$: $\int x^2 \, dx = \frac{x^3}{3} + C$}
+            ]
+            \addplot[blue, thick] {x^2};
+            \addplot[red, thick, dashed, domain=0:3] {x^3 / 3};
+            \legend{$f(x) = x^2$, $F(x) = \frac{x^3}{3} + C$}
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{Graph of $f(x) = x^2$ (blue) and its antiderivative $F(x) = \frac{x^3}{3} + C$ (red dashed).}
+    \end{center}
+
+    \item \textbf{Constant Rule for Integrals:} The integral of a constant \( a \) is the constant multiplied by \( x \):
+    \[
+    \int a \, dx = a \cdot x + C
+    \]
+    where \( C \) is the constant of integration.
+
+    \textbf{Explanation:} Integrating a constant is equivalent to finding a function whose derivative would result in that constant. Since the derivative of \( ax + C \) with respect to \( x \) is \( a \), we see that \( a \cdot x + C \) is indeed the antiderivative of \( a \).
+
+    \textbf{Example:} For \( f(x) = 5 \), we find:
+    \[
+    \int 5 \, dx = 5x + C
+    \]
+    This result shows that the antiderivative of a constant function \( 5 \) is \( 5x \) plus an arbitrary constant \( C \), as any constant term would disappear upon differentiation.
+
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $x$,
+                ylabel = {$f(x)$},
+                ymin=0, ymax=10,
+                xmin=0, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                title={Integral of a Constant: $\int 5 \, dx = 5x + C$}
+            ]
+            \addplot[blue, thick] {5};
+            \addplot[red, thick, dashed, domain=0:3] {5 * x};
+            \legend{$f(x) = 5$, $F(x) = 5x + C$}
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{Graph of the constant function $f(x) = 5$ (blue) and its antiderivative $F(x) = 5x + C$ (red dashed).}
+    \end{center}
+
+    \item \textbf{Sum and Difference Rule for Integrals:} When integrating a sum or difference of functions, we can apply the integral separately to each term in the sum or difference. This property is expressed as:
+    \[
+    \int \left( f(x) + g(x) \right) \, dx = \int f(x) \, dx + \int g(x) \, dx
+    \]
+    and
+    \[
+    \int \left( f(x) - g(x) \right) \, dx = \int f(x) \, dx - \int g(x) \, dx
+    \]
+
+    \textbf{Explanation:} The sum and difference rule allows us to decompose complex integrals into simpler parts, making it easier to compute each integral separately. This rule follows from the linearity of integration.
+
+    \textbf{Example:} For \( f(x) = 3x^2 + 2x \), we can apply the sum rule as follows:
+    \[
+    \int (3x^2 + 2x) \, dx = \int 3x^2 \, dx + \int 2x \, dx
+    \]
+    Using the power rule for each term:
+    \[
+    = 3 \cdot \frac{x^{2+1}}{2+1} + 2 \cdot \frac{x^{1+1}}{1+1} + C
+    \]
+    \[
+    = 3 \cdot \frac{x^3}{3} + 2 \cdot \frac{x^2}{2} + C
+    \]
+    Simplifying:
+    \[
+    = x^3 + x^2 + C
+    \]
+    Therefore, the integral of \( 3x^2 + 2x \) is \( x^3 + x^2 + C \).
+
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $x$,
+                ylabel = {$f(x)$},
+                ymin=0, ymax=15,
+                xmin=0, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:3,
+                samples=100,
+                title={Integral of $3x^2 + 2x$: $x^3 + x^2 + C$}
+            ]
+            \addplot[blue, thick] {3*x^2 + 2*x};
+            \addplot[red, thick, dashed, domain=0:3] {x^3 + x^2};
+            \legend{$f(x) = 3x^2 + 2x$, $F(x) = x^3 + x^2 + C$}
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{Graph of $f(x) = 3x^2 + 2x$ (blue) and its antiderivative $F(x) = x^3 + x^2 + C$ (red dashed).}
+    \end{center}
 \end{enumerate}
 
 \section{Applications of Integrals}
 Integrals have many practical applications, especially when you need to calculate totals, such as:
 \begin{enumerate}
-    \item \textbf{Area Under a Curve:} If you want to calculate the total area under a curve (for example, finding the total distance a car has traveled), integrals provide the solution.
-    \textbf{Example:}
-    \begin{itemize}
-        \item If the velocity of a car is given by \( f(t) = 2t \), the integral of this function gives the distance traveled: \( \int 2t \, dt = t^2 + C \)
-    \end{itemize}
-    \item \textbf{Accumulating Quantities:} If you know how something is changing, you can use integrals to find the total amount accumulated over time. For example, if you know the rate at which water is flowing into a tank, you can use an integral to find the total amount of water in the tank after a certain time.
-    \item \textbf{Economics and Finance:} Integrals are used in economics to calculate things like consumer surplus and producer surplus by finding the area under demand or supply curves.
+    \item \textbf{Area Under a Curve:} If you want to calculate the total area under a curve, integrals provide the solution. This is particularly useful in physics and engineering, for example, to find the total distance a car has traveled given its velocity function.
+
+    \textbf{Example:} If the velocity of a car is given by \( f(t) = 2t \), the integral of this function gives the distance traveled:
+    \[
+    \int 2t \, dt = t^2 + C
+    \]
+    This means that the distance traveled by the car over time \( t \) is given by \( t^2 + C \).
+
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {$f(t)$},
+                ymin=0, ymax=10,
+                xmin=0, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:5,
+                samples=100,
+                title={Area Under $f(t) = 2t$}
+            ]
+            \addplot[blue, thick] {2*x};
+            \addplot[fill=blue, fill opacity=0.2] coordinates {(0,0) (1,2) (2,4) (3,6) (4,8) (5,10)};
+            \legend{$f(t) = 2t$}
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{The area under the curve $f(t) = 2t$ from $t = 0$ to $t = 5$ represents the total distance traveled.}
+    \end{center}
+
+    \item \textbf{Accumulating Quantities:} When you know the rate at which something is changing, you can use integrals to find the total amount accumulated over time. For example, if you know the rate at which water flows into a tank, you can use an integral to find the total volume of water accumulated over a given time period.
+
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {Rate of flow},
+                ymin=0, ymax=8,
+                xmin=0, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:5,
+                samples=100,
+                title={Accumulated Quantity Over Time}
+            ]
+            \addplot[blue, thick] {2 + 0.5*x};
+            \addplot[fill=blue, fill opacity=0.2] coordinates {(0,2) (1,2.5) (2,3) (3,3.5) (4,4) (5,4.5)};
+            \legend{Rate of flow}
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{The area under the rate of flow curve represents the total volume of water accumulated in the tank over time.}
+    \end{center}
+
+    \item \textbf{Economics and Finance:} In economics, integrals are used to calculate quantities such as consumer and producer surplus by finding the area under demand or supply curves. These integrals represent the total benefit or cost over a range of prices or quantities.
+
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = Quantity,
+                ylabel = {Price},
+                ymin=0, ymax=15,
+                xmin=0, xmax=10,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:10,
+                samples=100,
+                title={Consumer and Producer Surplus}
+            ]
+            \addplot[blue, thick] {-x + 12};
+            \addplot[red, thick] {0.5*x + 2};
+            \addplot[fill=blue, fill opacity=0.2] coordinates {(0,12) (5,7) (0,7)};
+            \addplot[fill=red, fill opacity=0.2] coordinates {(5,7) (10,7) (10,10)};
+            \legend{Demand Curve, Supply Curve}
+        \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{The area between the demand and supply curves represents the consumer and producer surplus.}
+    \end{center}
 \end{enumerate}
+
+
 
 \section{Fundamental Theorem of Calculus}
 The Fundamental Theorem of Calculus links derivatives and integrals. It states that:
@@ -517,5 +697,237 @@ In simple terms, derivatives and integrals are two sides of the same coin—one 
     \item Calculus has many real-world applications, from physics and engineering to economics and medicine.
 \end{itemize}
 
-\section{Challenge Question}
-A car’s velocity is given by \( v(t) = 3t^2 \), where \( t \) is time in seconds. Find the car’s total distance traveled between \( t = 0 \) and \( t = 4 \) seconds by using an integral.
+\section{Challenge Questions}
+
+\begin{enumerate}
+    \item \textbf{Challenge Question 1:} A car’s acceleration is given by \( a(t) = 4t \), where \( t \) is time in seconds. Find the car’s velocity at \( t = 5 \) seconds if its initial velocity at \( t = 0 \) is \( 2 \, \text{m/s} \).
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {$a(t)$},
+                ymin=0, ymax=25,
+                xmin=0, xmax=6,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:5,
+                samples=100,
+                title={Acceleration: $a(t) = 4t$}
+            ]
+            \addplot[blue, thick] {4*x};
+            \legend{$a(t) = 4t$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 2:} The rate of water flow into a tank is given by \( f(t) = 5 \sin(t) \) liters per second. Find the total volume of water in the tank after \( t = \pi \) seconds.
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {$f(t)$},
+                ymin=-6, ymax=6,
+                xmin=0, xmax=3.5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:3.14,
+                samples=100,
+                title={Rate of Water Flow: $f(t) = 5 \sin(t)$}
+            ]
+            \addplot[blue, thick] {5 * sin(deg(x))};
+            \legend{$f(t) = 5 \sin(t)$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 3:} The demand for a product is given by \( D(q) = 20 - q \) where \( q \) is the quantity demanded. Find the consumer surplus when the market price is \$10.
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = Quantity,
+                ylabel = {Price},
+                ymin=0, ymax=25,
+                xmin=0, xmax=20,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:20,
+                samples=100,
+                title={Demand Curve: $D(q) = 20 - q$}
+            ]
+            \addplot[blue, thick] {20 - x};
+            \addplot[red, dashed] coordinates {(0,10) (10,10)};
+            \legend{Demand Curve, Market Price}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 4:} Find the total area enclosed by the curve \( f(x) = x^3 - 3x \) and the x-axis between \( x = -2 \) and \( x = 2 \).
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $x$,
+                ylabel = {$f(x)$},
+                ymin=-10, ymax=10,
+                xmin=-3, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-2:2,
+                samples=100,
+                title={Curve: $f(x) = x^3 - 3x$}
+            ]
+            \addplot[blue, thick] {x^3 - 3*x};
+            \legend{$f(x) = x^3 - 3x$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 5:} A particle moves along a line such that its velocity is given by \( v(t) = 4e^{-0.5t} \). Find the total distance traveled by the particle from \( t = 0 \) to \( t = 6 \).
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {$v(t)$},
+                ymin=0, ymax=5,
+                xmin=0, xmax=6,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:6,
+                samples=100,
+                title={Velocity: $v(t) = 4e^{-0.5t}$}
+            ]
+            \addplot[blue, thick] {4 * exp(-0.5*x)};
+            \legend{$v(t) = 4e^{-0.5t}$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 6:} Given the marginal cost function \( C'(x) = 3x^2 + 2x + 1 \), find the total cost of producing 5 units if the fixed cost is 10.
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $x$,
+                ylabel = {$C'(x)$},
+                ymin=0, ymax=100,
+                xmin=0, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:5,
+                samples=100,
+                title={Marginal Cost: $C'(x) = 3x^2 + 2x + 1$}
+            ]
+            \addplot[blue, thick] {3*x^2 + 2*x + 1};
+            \legend{$C'(x) = 3x^2 + 2x + 1$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 7:} A bacteria population grows at a rate given by \( r(t) = 100e^{0.2t} \). Find the total population growth from \( t = 0 \) to \( t = 5 \).
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {$r(t)$},
+                ymin=0, ymax=800,
+                xmin=0, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:5,
+                samples=100,
+                title={Growth Rate: $r(t) = 100e^{0.2t}$}
+            ]
+            \addplot[blue, thick] {100 * exp(0.2*x)};
+            \legend{$r(t) = 100e^{0.2t}$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 8:} The temperature in a room changes over time according to \( T(t) = 20 + 5 \sin(0.5t) \). Find the average temperature in the room over \( t = 0 \) to \( t = 4\pi \).
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {$T(t)$},
+                ymin=10, ymax=30,
+                xmin=0, xmax=12.57,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:12.57,
+                samples=100,
+                title={Temperature: $T(t) = 20 + 5 \sin(0.5t)$}
+            ]
+            \addplot[blue, thick] {20 + 5 * sin(0.5 * x)};
+            \legend{$T(t) = 20 + 5 \sin(0.5t)$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 9:} An object’s velocity is given by \( v(t) = 3t^2 - 12t + 9 \). Find the time \( t \) at which the object comes to rest within the interval \( t = 0 \) to \( t = 5 \).
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $t$,
+                ylabel = {$v(t)$},
+                ymin=-10, ymax=10,
+                xmin=0, xmax=5,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=0:5,
+                samples=100,
+                title={Velocity: $v(t) = 3t^2 - 12t + 9$}
+            ]
+            \addplot[blue, thick] {3*x^2 - 12*x + 9};
+            \legend{$v(t) = 3t^2 - 12t + 9$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \item \textbf{Challenge Question 10:} Find the area between the curve \( f(x) = x^2 - 4 \) and the x-axis from \( x = -2 \) to \( x = 2 \).
+    
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = $x$,
+                ylabel = {$f(x)$},
+                ymin=-5, ymax=5,
+                xmin=-3, xmax=3,
+                grid = major,
+                width=10cm,
+                height=6cm,
+                domain=-2:2,
+                samples=100,
+                title={Curve: $f(x) = x^2 - 4$}
+            ]
+            \addplot[blue, thick] {x^2 - 4};
+            \legend{$f(x) = x^2 - 4$}
+        \end{axis}
+        \end{tikzpicture}
+    \end{center}
+\end{enumerate}

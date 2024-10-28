@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  28 OCT 2024 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  28 OCT 2024 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,15 +865,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [84] [85]
 Underfull \vbox (badness 1394) has occurred while \output is active []
 
- [86] [87] [88] [89] [90] [91] [92] [93]
-Overfull \hbox (9.75014pt too wide) in paragraph at lines 508--509
+ [86] [87] [88] [89] [90] [91] [92] [93] [94]
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [95] [96] [97]
+Overfull \hbox (9.75014pt too wide) in paragraph at lines 688--689
 []\OT1/cmr/bx/n/10 Engineering: \OT1/cmr/m/n/10 En-gi-neers use cal-cu-lus to model sys-tems that in-volve changes,
  []
 
-) [94] [95]
+[98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102]) [103]
 \openout2 = `chapters/Trigonometry.aux'.
 
- (chapters/Trigonometry.tex [96
+ (chapters/Trigonometry.tex [104
 
 
 
@@ -885,7 +900,7 @@ Overfull \hbox (42.74788pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Introduction: Un-der-stand-ing the World Through
  []
 
-[97] [98] [99] [100] [101]) [102]
+[105] [106] [107] [108] [109]) [110]
 \openout2 = `chapters/Abstract_Math.aux'.
 
  (chapters/Abstract_Math.tex
@@ -895,27 +910,27 @@ Overfull \hbox (0.1829pt too wide) in paragraph at lines 4--4
 []\OT1/cmr/bx/n/14.4 Introduction: The Struc-ture Be-hind Math-
  []
 
-[103
+[111
 
 
 
 
-] [104] [105]
+] [112] [113]
 Overfull \hbox (0.38965pt too wide) in paragraph at lines 139--139
 []\OT1/cmr/bx/n/14.4 Mathematical Logic and Proofs in Real Life 
  []
 
-[106] [107]) [108]
+[114] [115]) [116]
 \openout2 = `chapters/Understanding_Infinity.aux'.
 
  (chapters/Understanding_Infinity.tex
 Chapter 12.
-[109
+[117
 
 
 
 
-] [110] [111] [112] [113]) [114]
+] [118] [119] [120] [121]) [122]
 \openout2 = `chapters/Modern_math.aux'.
 
  (chapters/Modern_math.tex
@@ -925,12 +940,12 @@ Overfull \hbox (3.24792pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Introduction: The In-ter-sec-tion of Math and
  []
 
-[115
+[123
 
 
 
 
-] [116] [117] [118] [119]
+] [124] [125] [126] [127]
 Overfull \hbox (5.98616pt too wide) in paragraph at lines 151--151
 []\OT1/cmr/bx/n/14.4 Combining Lin-ear Al-ge-bra, Prob-a-bil-ity, and
  []
@@ -940,7 +955,7 @@ Overfull \hbox (6.1318pt too wide) in paragraph at lines 162--163
 []\OT1/cmr/bx/n/10 Modeling Un-cer-tainty: \OT1/cmr/m/n/10 Many ma-chine learn-ing al-go-rithms, like Bayesian
  []
 
-[120]
+[128]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.54448pt, for example:
@@ -948,17 +963,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.54448pt}.
 
-[121]) [122]
+[129]) [130]
 \openout2 = `chapters/Advanced_Geomerty.aux'.
 
  (chapters/Advanced_Geomerty.tex
 Chapter 14.
-[123
+[131
 
 
 
 
-] [124]
+] [132]
 Overfull \hbox (1.36053pt too wide) in paragraph at lines 51--52
 []\OT1/cmr/m/n/10 A cir-cle and an oval are topo-log-i-cally the same be-cause one can be stretched
  []
@@ -968,15 +983,15 @@ Overfull \hbox (0.63942pt too wide) in paragraph at lines 69--70
 []\OT1/cmr/m/n/10 Computer graph-ics: Frac-tals are used to cre-ate re-al-is-tic land-scapes, clouds,
  []
 
-[125]
+[133]
 Overfull \hbox (10.10248pt too wide) in paragraph at lines 117--118
 \OT1/cmr/m/n/10 struc-tures like curved build-ings, geodesic domes, and bridges. Non-Euclidean
  []
 
-[126]) [127]
+[134]) [135]
 \openout2 = `chapters/Discrete_Mathematics.aux'.
 
- (chapters/Discrete_Mathematics.tex [128
+ (chapters/Discrete_Mathematics.tex [136
 
 
 
@@ -991,54 +1006,54 @@ Overfull \hbox (0.7313pt too wide) in paragraph at lines 3--3
 
 Underfull \vbox (badness 2913) has occurred while \output is active []
 
- [129]
+ [137]
 Overfull \hbox (11.4212pt too wide) in paragraph at lines 49--49
 []\OT1/cmr/bx/n/14.4 Combinatorics: Count-ing and Ar-range-ments 
  []
 
-[130] [131] [132]
+[138] [139] [140]
 Overfull \hbox (13.63124pt too wide) in paragraph at lines 129--129
 []\OT1/cmr/bx/n/14.4 Algorithms in Graph The-ory, Com-bi-na-torics,
  []
 
-[133] [134]) [135]
+[141] [142]) [143]
 \openout2 = `chapters/conclusion.aux'.
 
- (chapters/conclusion.tex [136
+ (chapters/conclusion.tex [144
 
 
 
 
 ]
 Chapter 16.
-) [137]
+) [145]
 \openout2 = `chapters/Definitions.aux'.
 
- (chapters/Definitions.tex [138
+ (chapters/Definitions.tex [146
 
 
 
 
 ]
 Chapter 17.
-[139] [140]) [141] (math_book.aux (chapters/introduction.aux) (chapters/addition_and_subtraction.aux) (chapters/updated_multiplication_and_division.aux) (chapters/fractions_decimals_percentages.aux) (chapters/algebra.aux) (chapters/geometry.aux) (chapters/Data_and_Probability.aux) (chapters/Advanced_Algebra.aux) (chapters/calculus.aux) (chapters/Trigonometry.aux) (chapters/Abstract_Math.aux) (chapters/Understanding_Infinity.aux) (chapters/Modern_math.aux) (chapters/Advanced_Geomerty.aux) (chapters/Discrete_Mathematics.aux) (chapters/conclusion.aux) (chapters/Definitions.aux))
+[147] [148]) [149] (math_book.aux (chapters/introduction.aux) (chapters/addition_and_subtraction.aux) (chapters/updated_multiplication_and_division.aux) (chapters/fractions_decimals_percentages.aux) (chapters/algebra.aux) (chapters/geometry.aux) (chapters/Data_and_Probability.aux) (chapters/Advanced_Algebra.aux) (chapters/calculus.aux) (chapters/Trigonometry.aux) (chapters/Abstract_Math.aux) (chapters/Understanding_Infinity.aux) (chapters/Modern_math.aux) (chapters/Advanced_Geomerty.aux) (chapters/Discrete_Mathematics.aux) (chapters/conclusion.aux) (chapters/Definitions.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32023 strings out of 474485
- 834026 string characters out of 5760148
- 1951542 words of memory out of 5000000
- 53734 multiletter control sequences out of 15000+600000
+ 32250 strings out of 474485
+ 838379 string characters out of 5760148
+ 1953542 words of memory out of 5000000
+ 53961 multiletter control sequences out of 15000+600000
  570032 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,93p,780b,2325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,93p,780b,2327s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on math_book.pdf (141 pages, 537884 bytes).
+Output written on math_book.pdf (149 pages, 585751 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
+ 583 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  19 words of extra memory for PDF output out of 10000 (max. 10000000)
 
