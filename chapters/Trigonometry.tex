@@ -13,6 +13,32 @@ In any right triangle, we have three sides:
     \item \textbf{Adjacent side:} The side next to the angle you’re focusing on (but not the hypotenuse).
 \end{itemize}
 
+\begin{center}
+\begin{tikzpicture}
+    % Draw the triangle
+    \draw[thick] (0,0) -- (4,0) -- (4,3) -- cycle;
+
+    % Labels for sides
+    \node at (2, -0.3) {Adjacent};
+    \node at (5,1) {Opposite};
+    \node at (1.5, 2) {Hypotenuse};
+
+    % 90 degree angle square
+    \draw (3.7,0) rectangle +(0.3,0.3);
+    \node at (4.5, 0.2) {$90^\circ$};
+
+    % Angle label
+    \node at (0.5, 0.2) {$\theta$};
+
+    % Arrowed lines for sides
+    \draw[thick, <->] (4,0) -- (4,3); % Opposite
+    \draw[thick, <->] (0,0) -- (4,0); % Adjacent
+    \draw[thick, <->] (0,0) -- (4,3); % Hypotenuse
+
+\end{tikzpicture}
+\end{center}
+
+
 \subsection{Trigonometric Ratios}
 The three basic trigonometric functions are sine (sin), cosine (cos), and tangent (tan). These functions relate the angles of a triangle to the lengths of its sides.
 For any angle $\theta$ in a right triangle:

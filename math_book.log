@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  28 OCT 2024 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.18)  28 OCT 2024 19:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -900,7 +900,10 @@ Overfull \hbox (42.74788pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Introduction: Un-der-stand-ing the World Through
  []
 
-[105] [106] [107] [108] [109]) [110]
+
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+ [105] [106] [107] [108] [109]) [110]
 \openout2 = `chapters/Abstract_Math.aux'.
 
  (chapters/Abstract_Math.tex
@@ -1043,15 +1046,15 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32250 strings out of 474485
- 838379 string characters out of 5760148
+ 32253 strings out of 474485
+ 838438 string characters out of 5760148
  1953542 words of memory out of 5000000
- 53961 multiletter control sequences out of 15000+600000
+ 53964 multiletter control sequences out of 15000+600000
  570032 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,93p,780b,2327s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1440.pk> <C:\Users\Denzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on math_book.pdf (149 pages, 585751 bytes).
+Output written on math_book.pdf (149 pages, 586300 bytes).
 PDF statistics:
  583 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
