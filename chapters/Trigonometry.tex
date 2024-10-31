@@ -212,52 +212,123 @@ Trigonometry is incredibly useful in many real-world situations. Here are a few 
 
     % Question 1
     \item Find the height of a tree given the angle of elevation from a point 30 meters away is $45^\circ$.
-    \\ 
-    \textbf{Visual:} A right triangle showing the tree as the vertical side, the distance to the tree as the base, and an angle of elevation of $45^\circ$.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) -- (4,0) -- (4,4) -- cycle;
+            \draw[red] (3.5,0) -- (3.5,0.5) -- (4,0.5);
+            \node at (2, -0.5) {30 m};
+            \node at (4.75, 2) {height};
+            \draw[thick, ->] (1,0) arc[start angle=0, end angle=45, radius=1];
+            \node at (1.5, 0.5) {$45^\circ$};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 2
     \item A ladder leans against a wall at an angle of $60^\circ$ with the ground. If the ladder is 10 meters long, how far is the base of the ladder from the wall?
-    \\ 
-    \textbf{Visual:} A ladder forming a right triangle with the wall and the ground, showing the $60^\circ$ angle and a hypotenuse of 10 meters.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) -- (6,0) -- (6,10) -- cycle;
+            \draw[red] (5.5,0) -- (5.5,0.5) -- (6,0.5);
+            \node at (2, 5) {10 m};
+            \node at (3, -0.5) {Base distance};
+            \draw[thick, ->] (1,0) arc[start angle=0, end angle=60, radius=1];
+            \node at (1.5, 0.5) {$60^\circ$};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 3
     \item Given a triangle with sides $a = 8$, $b = 15$, and an included angle $\theta = 60^\circ$, find the length of the third side.
-    \\ 
-    \textbf{Visual:} A non-right triangle showing two known sides and the included $60^\circ$ angle, where you need to find the third side.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) -- (8,0) -- (4,6.92) -- cycle;
+            \node at (4, -0.5) { a = 8};
+            \node at (6.5, 4) {b = 15};
+            \draw[thick, ->] (1,0) arc[start angle=0, end angle=60, radius=1];
+            \node at (1.5,0.5) {$60^\circ \theta$};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 4
     \item The sine of angle $\alpha$ in a right triangle is $\frac{3}{5}$. What is the cosine of the complementary angle $\beta$?
-    \\ 
-    \textbf{Visual:} A right triangle labeled with $\alpha$ and $\beta$, indicating their complementarity.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) -- (4,0) -- (4,3) -- cycle;
+            \draw[red] (3.5,0) -- (3.5,0.5) -- (4,0.5);
+            \node at (3.25, 1.75) {$\alpha$ = $\frac{3}{5}$};
+            \draw[thick, ->] (3.35,2.5) arc[start angle=220, end angle=265, radius=1];
+            \node at (1,0.25) {$\beta$};
+            \node at (4.5, -0.5) {5};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 5
     \item A point $P$ on the unit circle corresponds to an angle of $120^\circ$. Find the coordinates of point $P$.
-    \\ 
-    \textbf{Visual:} A unit circle showing the angle $120^\circ$ and point $P$ on the circumference.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) circle (2);
+            \draw[thick, ->] (0,0) -- (1,-1.73);
+            \node at (1.3, -2.2) {$P$};
+            \node at (0, -1.5) {$120^\circ$};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 6
     \item Find the length of the shadow cast by a 5-meter pole when the sun's angle of elevation is $30^\circ$.
-    \\ 
-    \textbf{Visual:} A right triangle formed by the pole, its shadow, and the angle of elevation of $30^\circ$.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) -- (4,0) -- (4,3) -- cycle;
+            \node at (4.5, 1.5) {5 m};
+            \draw[red] (3.5,0) -- (3.5,0.5) -- (4,0.5);
+            \node at (2, -0.5) {Shadow};
+            \draw[thick, ->] (.75,0) arc[start angle=0, end angle=30, radius=1];
+            \node at (1.5, 0.5) {$30^\circ$};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 7
     \item Solve for $x$ in the equation $\tan(x) = \frac{1}{\sqrt{3}}$ for $0^\circ \leq x < 360^\circ$.
-    \\ 
-    \textbf{Visual:} A unit circle with the tangent line indicating points that have a tangent value of $\frac{1}{\sqrt{3}}$.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) circle (2);
+            \draw[thick, ->] (0,0) -- (1.73,1);
+            \draw[thick, ->] (0,0) -- (1.73,-1);
+            \node at (2, 1.3) {$x$};
+        \end{tikzpicture}
+    \end{center}
+    \textbf{Solution:} The equation $\tan(x) = \frac{1}{\sqrt{3}}$ corresponds to angles where the tangent value is $\frac{1}{\sqrt{3}}$. In the interval $0^\circ \leq x < 360^\circ$, the solutions are:
+    \[ x = 30^\circ, 210^\circ \]
+
 
     % Question 8
     \item If $\sin(\theta) = 0.6$, find $\cos(\theta)$ using the Pythagorean identity.
-    \\ 
-    \textbf{Visual:} A right triangle with $\sin(\theta) = 0.6$, illustrating the relationship between the opposite side and hypotenuse.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) -- (4,0) -- (4,2.4) -- cycle;
+            \node at (4.5, 1.2) {Opposite = 0.6};
+            \node at (2, -0.5) {Hypotenuse = 1};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 9
     \item Find the area of a triangle with sides $a = 7$, $b = 9$, and angle $C = 45^\circ$ between them.
-    \\ 
-    \textbf{Visual:} A non-right triangle with two sides labeled $a$ and $b$, and angle $C = 45^\circ$ marked.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) -- (7,0) -- (4,5) -- cycle;
+            \node at (3.5, -0.5) {7};
+            \node at (5, 2.5) {9};
+            \node at (1, 3) {$45^\circ$};
+        \end{tikzpicture}
+    \end{center}
 
     % Question 10
     \item A ferris wheel has a radius of 20 meters. If a rider is at an angle of $\frac{\pi}{3}$ radians from the horizontal, what is their height above the ground if the wheel's center is 25 meters above the ground?
-    \\ 
-    \textbf{Visual:} A ferris wheel diagram with a rider at angle $\frac{\pi}{3}$ and a radius of 20 meters, indicating the height from the ground.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[thick] (0,0) circle (3);
+            \draw[thick, ->] (0,0) -- (1.5,2.6);
+            \node at (1.8, 2.8) {Rider};
+            \node at (1, -2) {$\frac{\pi}{3}$};
+        \end{tikzpicture}
+    \end{center}
 
 \end{enumerate}
